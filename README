@@ -1,0 +1,28 @@
+## type crawl
++ 1: request
++ 2: selenium
++ 3: request -> api
+
+## type find
++ 1: find xpath
++ 2: find xpath + regex
++ 3: find with regex
+
+## type result
++ 1: string
++ 2: list
+
+## type action
++ 1: click
++ 2: get attributes
++ 3: scroll down
+
+
+## response Type
++ 1: html
++ 2: json
+
+
+## type param:
++ 1: nhận data từ id post
++ 2: nhận data tuỳ từng link cate
