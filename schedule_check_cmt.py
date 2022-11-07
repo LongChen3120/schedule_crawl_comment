@@ -54,6 +54,7 @@ async def detect_time():
         main_crawl.main()
         return 1
     else:
+        # await check_comment_today()
         main_crawl.main()
         return 0
 
@@ -99,7 +100,7 @@ async def check_time(queue_doc, list_doc, time_out):
 def create_thread(queue_doc):
     list_thread = []
         
-    for i in range(5): #5
+    for i in range(1): #5
         thread = My_thread(queue_doc, queue_update)
         thread.daemon
         thread.start()
@@ -150,7 +151,7 @@ async def main():
 
 if __name__ == '__main__':
     start_time = time.time()
-    # asyncio.run(main())
+    asyncio.run(main())
     scheduler = AsyncIOScheduler()
     scheduler.add_job(main, 'interval', hours=1)
     scheduler.start()

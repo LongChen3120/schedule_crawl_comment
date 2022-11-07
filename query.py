@@ -2,7 +2,8 @@ import pymongo
 import json
 import logging
 
-
+# local mongodb://localhost:27017
+# a huy mongodb://192.168.19.168:27017
 def connect_DB():
     client = pymongo.MongoClient("mongodb://192.168.19.168:27017")
     db = client["PaPer"]
@@ -29,7 +30,7 @@ def get_data(col):
     #         list_doc_today.append(doc)
 
     list_doc_today = []
-    for doc in col.find({}):
+    for doc in col.find({"type" : 6}):
         list_doc_today.append(doc)
     return list_doc_today
 

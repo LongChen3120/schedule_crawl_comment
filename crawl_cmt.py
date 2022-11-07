@@ -102,7 +102,7 @@ def crawl_in_post(doc, queue_post_err):
                 comment = check_regex(config_site['comment_in_post']['detect']['re'], [str(data)])[0]
                 comment = re.findall(r'\d+', comment)[0]
             except:
-                comment = "0"
+                comment = doc['comment']
                 queue_post_err.put(doc)
                 
     except Exception as e:
@@ -119,13 +119,14 @@ def crawl_in_post(doc, queue_post_err):
 def send_request(link_cate, type_crawl, param_scroll_down):
     if type_crawl == 1:
         res = requests.get(link_cate, headers=header, timeout=10)
+        time.sleep(0.1)
         return res
 
     elif type_crawl == 2:
         options = Options()
         options.add_experimental_option('excludeSwitches', ['enable-logging'])
         options.headless = True
-        browser = webdriver.Chrome(executable_path='C:/Users/Admin/Documents/crawl_comment/chrome_driver/chromedriver.exe', options=options)
+        browser = webdriver.Chrome(executable_path='./chrome_driver/chromedriver.exe', options=options)
         browser.implicitly_wait(10)
         browser.get(link_cate)
         time.sleep(2)
