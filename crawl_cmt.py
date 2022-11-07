@@ -12,11 +12,11 @@ from lxml import html
 
 
 
-header={"User-Agent" : "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"}
+header={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36'}
 
 
 def crawl_out_post(link_cate, config, queue_cate_err):
-    mycol_config, mycol_today, mycol_1_day_before, mycol_2_day_before = query.connect_DB()
+    col_config, col_temp_db, col_toppaper = query.connect_DB()
     list_data = []
     type_crawl = config['type_crawl']
     if type_crawl == 1:
@@ -37,7 +37,7 @@ def crawl_out_post(link_cate, config, queue_cate_err):
                             link_post = make_full_link(config['website'], link_post)
                             check_link_post = True
                             # logging.info({"link_cate":link_cate, "link":link_post[0], "cmt":comment[0]})
-                            list_data.append({"datetime": datetime.datetime.now(), "resourceUrl":link_cate, "url":link_post[0], "comment":comment[0] if len(comment) > 0 else "", "type":6})
+                            list_data.append({"type_doc":1, "datetime": datetime.datetime.now(), "resourceUrl":link_cate, "url":link_post[0], "comment":comment[0] if len(comment) > 0 else "", "type":6})
                             break
                 except:
                     queue_cate_err.put(link_cate)
@@ -56,7 +56,7 @@ def crawl_out_post(link_cate, config, queue_cate_err):
                         link_post = make_full_link(config['website'], link_post)
                         check_link_post = True
                         # logging.info({"link_cate":link_cate, "link":link_post[0], "cmt":comment[0] if len(comment) > 0 else ""})
-                        list_data.append({"datetime": datetime.datetime.now(), "resourceUrl":link_cate, "url":link_post[0], "comment":comment[0] if len(comment) > 0 else "", "type":6})
+                        list_data.append({"type_doc":1, "datetime": datetime.datetime.now(), "resourceUrl":link_cate, "url":link_post[0], "comment":comment[0] if len(comment) > 0 else "", "type":6})
                         break
         except Exception as e:
             queue_cate_err.put(link_cate)
@@ -65,7 +65,7 @@ def crawl_out_post(link_cate, config, queue_cate_err):
             website.close()
     list_data = check_replace_link(list_data)
     if len(list_data) > 0:
-        query.insert_coll(mycol_today, list_data)
+        query.insert_col_temp_db(col_temp_db, list_data)
         return list_data
     else:
         logging.info(f"not found data, url: {link_cate}")
@@ -77,16 +77,16 @@ def crawl_out_post(link_cate, config, queue_cate_err):
 
 def crawl_in_post(doc, queue_post_err):
     link_post = doc['url']
-    mycol_config, mycol_today, mycol_1_day_before, mycol_2_day_before = query.connect_DB()
+    col_config, col_temp_db, col_toppaper = query.connect_DB()
     website = link_post.split('/')[2]
-    config_site = mycol_config.find_one({"website":{"$regex":f"{website}"}})
+    config_site = col_config.find_one({"website":{"$regex":f"{website}"}})
     type_crawl = config_site['comment_in_post']['type_crawl']
     try:
         if type_crawl == 1:
-                res = send_request(link_post, type_crawl, param_scroll_down=False)
-                lxml = html.fromstring(res.text, 'lxml')
-                comment = detect_type(1, lxml, config_site['comment_in_post'])[0]
-                comment = re.findall(r'\d+', comment)[0]
+            res = send_request(link_post, type_crawl, param_scroll_down=False)
+            lxml = html.fromstring(res.text, 'lxml')
+            comment = detect_type(1, lxml, config_site['comment_in_post'])[0]
+            comment = re.findall(r'\d+', comment)[0]
 
         elif type_crawl == 2:
             website = send_request(link_post, type_crawl, param_scroll_down=False)
@@ -109,7 +109,9 @@ def crawl_in_post(doc, queue_post_err):
         queue_post_err.put(doc)
         comment = "0"
         logging.exception({"message":"exception when get comment", 
-                                "exception":e,
+                                "status_code": res.status_code,
+                                "res.text":res.text,
+                                "api":api if api else "",
                                 "link_post": link_post
                                 }, exc_info=True
                             )
@@ -119,7 +121,7 @@ def crawl_in_post(doc, queue_post_err):
 def send_request(link_cate, type_crawl, param_scroll_down):
     if type_crawl == 1:
         res = requests.get(link_cate, headers=header, timeout=10)
-        time.sleep(0.1)
+        # time.sleep(0.1)
         return res
 
     elif type_crawl == 2:
@@ -197,10 +199,10 @@ def check_regex(regex, list_link):
 
 
 def check_replace_link(list_data):
-    mycol_config, mycol_today, mycol_1_day_before, mycol_2_day_before = query.connect_DB()
+    col_config, col_temp_db, col_toppaper = query.connect_DB()
     temp = []
     for doc in list_data:
-        if mycol_today.find_one({"url":doc['url']}) or mycol_1_day_before.find_one({"url":doc['url']}) or mycol_2_day_before.find_one({"url":doc['url']}):
+        if col_temp_db.find_one({"url":doc['url']}):
             pass
         else:
             temp.append(doc)

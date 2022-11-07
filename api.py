@@ -36,7 +36,7 @@ def check_data(url:Optional[str] = Query(None)):
 
 @app.get('/check-comment-page')
 def check_replace_img(url:Optional[str] = Query(None)):
-    mycol_config, mycol_today, mycol_1_day_before, mycol_2_day_before = query.connect_DB()
+    mycol_config, col_temp_db, mycol_today, mycol_1_day_before, mycol_2_day_before = query.connect_DB()
     website = url.split('/')[2]
     config_site = mycol_config.find_one({"website":{"$regex":f"{website}"}})
     if url == None:

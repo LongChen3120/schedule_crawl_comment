@@ -20,9 +20,9 @@ def main_handler(queue_cate, config_site):
     while queue_cate.empty() == False:  
         link_cate = queue_cate.get()
         # print(f"{threading.current_thread().name} got url: {link_cate}")
-        logging.info(f"{threading.current_thread().name} got url: {link_cate}")
+        # logging.info(f"{threading.current_thread().name} got url: {link_cate}")
         crawl_cmt.crawl_out_post(link_cate, config_site, queue_cate_err)
-        logging.info(f"{threading.current_thread().name} finished crawl out post url: {link_cate}")
+        # logging.info(f"{threading.current_thread().name} finished crawl out post url: {link_cate}")
 
     while queue_cate_err.empty() == False:
         cate_err = queue_cate_err.get()
@@ -30,9 +30,9 @@ def main_handler(queue_cate, config_site):
         crawl_cmt.crawl_out_post(cate_err, config_site, queue_cate_save)
         logging.info(f"{threading.current_thread().name} finished recrawl out post url: {cate_err}")
 
-    while queue_cate_save.empty() == False:
-        cate_save = queue_cate_save.get()
-        with open('./log/cate_error.txt', 'w', encoding='utf-8') as write_cate_err:
+    with open('./log/cate_error.txt', 'w', encoding='utf-8') as write_cate_err:
+        while queue_cate_save.empty() == False:
+            cate_save = queue_cate_save.get()
             write_cate_err.writelines(cate_save)
 
 
@@ -40,8 +40,8 @@ def main_handler(queue_cate, config_site):
 def main():
     start_time = time.time()
 
-    mycol_config, mycol_today, mycol_1_day_before, mycol_2_day_before = query.connect_DB()
-    configs = mycol_config.find({})
+    col_config, col_temp_db, col_toppaper = query.connect_DB()
+    configs = col_config.find({})
 
     list_thread = []
     queue_cate = queue.Queue()

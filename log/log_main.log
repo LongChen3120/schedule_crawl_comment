@@ -1,18 +1,549 @@
-2022-11-07 10:13:15,910 - INFO - 
+2022-11-07 15:55:25,173 - INFO - 
 
 _____________________________new_log_____________________________
-2022-11-07 10:13:18,591 - INFO - Thread-7 update link: https://thanhnien.vn/muu-sinh-tren-dam-an-khe-vu-dieu-cuoc-song-post1518588.html
-2022-11-07 10:13:18,984 - INFO - Thread-7 finish update comment link: https://thanhnien.vn/muu-sinh-tren-dam-an-khe-vu-dieu-cuoc-song-post1518588.html
-2022-11-07 10:13:20,090 - INFO - Thread-7 update link: https://thanhnien.vn/tin-tuc-thoi-tiet-hom-nay-7112022-chinh-thuc-lap-dong-mien-bac-troi-ret-ve-dem-post1518653.html
-2022-11-07 10:13:20,325 - INFO - Thread-7 finish update comment link: https://thanhnien.vn/tin-tuc-thoi-tiet-hom-nay-7112022-chinh-thuc-lap-dong-mien-bac-troi-ret-ve-dem-post1518653.html
-2022-11-07 10:13:38,481 - INFO - Thread-7 update link: https://thanhnien.vn/hoang-phi-dat-vang-dat-dep-doc-nhat-vo-nhi-bo-hoang-giua-thu-do-post1518606.html
-2022-11-07 10:13:40,850 - INFO - Thread-7 finish update comment link: https://thanhnien.vn/hoang-phi-dat-vang-dat-dep-doc-nhat-vo-nhi-bo-hoang-giua-thu-do-post1518606.html
-2022-11-07 10:13:42,451 - INFO - Thread-7 update link: https://thanhnien.vn/tuan-nay-quoc-hoi-thao-luan-ve-dau-gia-bien-so-o-to-sua-mau-ho-chieu-post1518618.html
-2022-11-07 10:13:45,018 - INFO - Thread-7 finish update comment link: https://thanhnien.vn/tuan-nay-quoc-hoi-thao-luan-ve-dau-gia-bien-so-o-to-sua-mau-ho-chieu-post1518618.html
-2022-11-07 10:13:45,599 - INFO - Thread-7 update link: https://thanhnien.vn/so-lien-lac-dien-tu-co-cung-nhu-khong-post1518035.html
-2022-11-07 10:14:10,685 - INFO - Thread-7 finish update comment link: https://thanhnien.vn/so-lien-lac-dien-tu-co-cung-nhu-khong-post1518035.html
-2022-11-07 10:14:19,872 - INFO - Thread-7 update link: https://thanhnien.vn/tien-giang-tu-xung-la-canh-sat-hinh-su-de-duoc-moi-an-nhau-post1518689.html
-2022-11-07 10:14:44,666 - INFO - Thread-7 finish update comment link: https://thanhnien.vn/tien-giang-tu-xung-la-canh-sat-hinh-su-de-duoc-moi-an-nhau-post1518689.html
-2022-11-07 10:15:04,630 - INFO - Thread-7 update link: https://thanhnien.vn/quang-binh-6-hoc-sinh-tam-song-1-em-duoi-nuoc-tu-vong-post1518572.html
-2022-11-07 10:15:19,301 - INFO - Thread-7 finish update comment link: https://thanhnien.vn/quang-binh-6-hoc-sinh-tam-song-1-em-duoi-nuoc-tu-vong-post1518572.html
-2022-11-07 10:15:23,083 - INFO - Thread-7 update link: https://thanhnien.vn/kon-tum-ra-toi-hau-thu-xu-ly-cac-thuy-dien-cham-den-bu-cho-dan-post1518543.html
+2022-11-07 15:55:26,326 - INFO - Thread-1 reupdate link https://thanhnien.vn/dong-thuoc-dieu-tri-ung-thu-bidiphar-duoc-vinh-danh-thuong-hieu-quoc-gia-2022-post1517569.html
+2022-11-07 15:55:26,416 - INFO - Thread-4 reupdate link https://thanhnien.vn/top-10-sua-rua-mat-cho-nam-giup-da-kho-thoang-khong-noi-mun-post1517103.html
+2022-11-07 15:55:26,424 - INFO - Thread-5 reupdate link https://thanhnien.vn/vi-sao-tre-duoi-6-thang-tuoi-de-bi-viem-phoi-nang-post1517592.html
+2022-11-07 15:55:26,431 - INFO - Thread-2 reupdate link https://thanhnien.vn/vi-sao-nguoi-lon-rat-can-tiem-vac-xin-o-thoi-diem-cuoi-nam-post1517623.html
+2022-11-07 15:55:26,576 - INFO - Thread-3 reupdate link https://thanhnien.vn/dieu-gi-xay-ra-neu-nam-gioi-uong-nham-thuoc-tranh-thai-post1510889.html
+2022-11-07 15:55:26,604 - INFO - Thread-1 finish reupdate comment link: https://thanhnien.vn/dong-thuoc-dieu-tri-ung-thu-bidiphar-duoc-vinh-danh-thuong-hieu-quoc-gia-2022-post1517569.html
+2022-11-07 15:55:26,604 - INFO - Thread-1 reupdate link https://thanhnien.vn/di-ung-bao-cao-su-gay-ra-trieu-chung-gi-nhung-ai-de-gap-post1517238.html
+2022-11-07 15:55:26,607 - INFO - Thread-2 finish reupdate comment link: https://thanhnien.vn/vi-sao-nguoi-lon-rat-can-tiem-vac-xin-o-thoi-diem-cuoi-nam-post1517623.html
+2022-11-07 15:55:26,607 - INFO - Thread-2 reupdate link https://thanhnien.vn/top-viagra-tu-nhien-tot-nhat-cho-quy-ong-post1507463.html
+2022-11-07 15:55:26,620 - INFO - Thread-5 finish reupdate comment link: https://thanhnien.vn/vi-sao-tre-duoi-6-thang-tuoi-de-bi-viem-phoi-nang-post1517592.html
+2022-11-07 15:55:26,620 - INFO - Thread-5 reupdate link https://thanhnien.vn/tiet-lo-cua-gam-esport-chung-toi-thuc-su-rat-muon-levi-o-lai-post1518701.html
+2022-11-07 15:55:26,633 - INFO - Thread-4 finish reupdate comment link: https://thanhnien.vn/top-10-sua-rua-mat-cho-nam-giup-da-kho-thoang-khong-noi-mun-post1517103.html
+2022-11-07 15:55:26,634 - INFO - Thread-4 reupdate link https://thanhnien.vn/cong-ty-khai-thac-bitcoin-lon-nhat-the-gioi-dung-truoc-nguy-co-pha-san-post1515891.html
+2022-11-07 15:55:26,694 - INFO - Thread-3 finish reupdate comment link: https://thanhnien.vn/dieu-gi-xay-ra-neu-nam-gioi-uong-nham-thuoc-tranh-thai-post1510889.html
+2022-11-07 15:55:26,694 - INFO - Thread-3 reupdate link https://thanhnien.vn/ho-tro-nguoi-ngheo-mua-smartphone-tu-cuoi-nam-nay-post1518151.html
+2022-11-07 15:55:26,729 - INFO - Thread-1 finish reupdate comment link: https://thanhnien.vn/di-ung-bao-cao-su-gay-ra-trieu-chung-gi-nhung-ai-de-gap-post1517238.html
+2022-11-07 15:55:26,730 - INFO - Thread-1 reupdate link https://thanhnien.vn/cktg-2022-hanh-trinh-ky-dieu-cua-drx-duoc-den-dap-bang-chuc-vo-dich-post1518499.html
+2022-11-07 15:55:26,732 - INFO - Thread-2 finish reupdate comment link: https://thanhnien.vn/top-viagra-tu-nhien-tot-nhat-cho-quy-ong-post1507463.html
+2022-11-07 15:55:26,733 - INFO - Thread-2 reupdate link https://thanhnien.vn/game-thu-trai-nghiem-predator-fest-lan-dau-to-chuc-tai-ha-noi-post1516011.html
+2022-11-07 15:55:26,748 - INFO - Thread-5 finish reupdate comment link: https://thanhnien.vn/tiet-lo-cua-gam-esport-chung-toi-thuc-su-rat-muon-levi-o-lai-post1518701.html
+2022-11-07 15:55:26,748 - INFO - Thread-5 reupdate link https://thanhnien.vn/tram-sac-ev-one-tai-viet-nam-sac-duoc-nhieu-loai-xe-dien-post1516293.html
+2022-11-07 15:55:26,757 - INFO - Thread-4 finish reupdate comment link: https://thanhnien.vn/cong-ty-khai-thac-bitcoin-lon-nhat-the-gioi-dung-truoc-nguy-co-pha-san-post1515891.html
+2022-11-07 15:55:26,757 - INFO - Thread-4 reupdate link https://thanhnien.vn/acura-tl-2005-sedan-dan-choi-mot-thoi-gia-300-trieu-tai-viet-nam-post1508866.html
+2022-11-07 15:55:26,827 - INFO - Thread-3 finish reupdate comment link: https://thanhnien.vn/ho-tro-nguoi-ngheo-mua-smartphone-tu-cuoi-nam-nay-post1518151.html
+2022-11-07 15:55:26,827 - INFO - Thread-3 reupdate link https://thanhnien.vn/o-to-dien-mg4-canh-tranh-vinfast-vf-e34-tai-viet-nam-post1516326.html
+2022-11-07 15:55:26,845 - INFO - Thread-1 finish reupdate comment link: https://thanhnien.vn/cktg-2022-hanh-trinh-ky-dieu-cua-drx-duoc-den-dap-bang-chuc-vo-dich-post1518499.html
+2022-11-07 15:55:26,845 - INFO - Thread-1 reupdate link https://thanhnien.vn/kinh-hoang-o-to-chay-lui-tren-cao-toc-suyt-gay-tai-nan-lien-hoan-post1518060.html
+2022-11-07 15:55:26,850 - ERROR - {'message': 'exception when get comment', 'status_code': 403, 'res.text': '', 'api': 'https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1516011', 'link_post': 'https://thanhnien.vn/game-thu-trai-nghiem-predator-fest-lan-dau-to-chuc-tai-ha-noi-post1516011.html'}
+Traceback (most recent call last):
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 100, in crawl_in_post
+    data = detect_responseType(config_site['comment_in_post']['responseType'], res)
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 163, in detect_responseType
+    return res.json()
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-11-07 15:55:26,855 - INFO - Thread-2 finish reupdate comment link: https://thanhnien.vn/game-thu-trai-nghiem-predator-fest-lan-dau-to-chuc-tai-ha-noi-post1516011.html
+2022-11-07 15:55:26,855 - INFO - Thread-2 reupdate link https://thanhnien.vn/diem-mat-dan-xe-chat-choi-nhung-kho-ban-tai-viet-nam-post1516266.html
+2022-11-07 15:55:26,875 - ERROR - {'message': 'exception when get comment', 'status_code': 403, 'res.text': '', 'api': 'https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1508866', 'link_post': 'https://thanhnien.vn/acura-tl-2005-sedan-dan-choi-mot-thoi-gia-300-trieu-tai-viet-nam-post1508866.html'}
+Traceback (most recent call last):
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 100, in crawl_in_post
+    data = detect_responseType(config_site['comment_in_post']['responseType'], res)
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 163, in detect_responseType
+    return res.json()
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-11-07 15:55:26,876 - INFO - Thread-4 finish reupdate comment link: https://thanhnien.vn/acura-tl-2005-sedan-dan-choi-mot-thoi-gia-300-trieu-tai-viet-nam-post1508866.html
+2022-11-07 15:55:26,877 - INFO - Thread-4 reupdate link https://thanhnien.vn/diem-mat-nang-cap-dat-gia-tren-mitsubishi-triton-cua-doi-dua-viet-nam-post1516072.html
+2022-11-07 15:55:26,883 - ERROR - {'message': 'exception when get comment', 'status_code': 403, 'res.text': '', 'api': 'https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1516293', 'link_post': 'https://thanhnien.vn/tram-sac-ev-one-tai-viet-nam-sac-duoc-nhieu-loai-xe-dien-post1516293.html'}
+Traceback (most recent call last):
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 100, in crawl_in_post
+    data = detect_responseType(config_site['comment_in_post']['responseType'], res)
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 163, in detect_responseType
+    return res.json()
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-11-07 15:55:26,884 - INFO - Thread-5 finish reupdate comment link: https://thanhnien.vn/tram-sac-ev-one-tai-viet-nam-sac-duoc-nhieu-loai-xe-dien-post1516293.html
+2022-11-07 15:55:26,884 - INFO - Thread-5 reupdate link https://thanhnien.vn/toan-canh-vietnam-motor-show-2022-dau-an-tan-binh-xe-xanh-toa-sang-post1515254.html
+2022-11-07 15:55:26,966 - ERROR - {'message': 'exception when get comment', 'status_code': 403, 'res.text': '', 'api': 'https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1516326', 'link_post': 'https://thanhnien.vn/o-to-dien-mg4-canh-tranh-vinfast-vf-e34-tai-viet-nam-post1516326.html'}
+Traceback (most recent call last):
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 100, in crawl_in_post
+    data = detect_responseType(config_site['comment_in_post']['responseType'], res)
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 163, in detect_responseType
+    return res.json()
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-11-07 15:55:26,971 - ERROR - {'message': 'exception when get comment', 'status_code': 403, 'res.text': '', 'api': 'https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1518060', 'link_post': 'https://thanhnien.vn/kinh-hoang-o-to-chay-lui-tren-cao-toc-suyt-gay-tai-nan-lien-hoan-post1518060.html'}
+Traceback (most recent call last):
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 100, in crawl_in_post
+    data = detect_responseType(config_site['comment_in_post']['responseType'], res)
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 163, in detect_responseType
+    return res.json()
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-11-07 15:55:26,972 - INFO - Thread-3 finish reupdate comment link: https://thanhnien.vn/o-to-dien-mg4-canh-tranh-vinfast-vf-e34-tai-viet-nam-post1516326.html
+2022-11-07 15:55:26,976 - INFO - Thread-1 finish reupdate comment link: https://thanhnien.vn/kinh-hoang-o-to-chay-lui-tren-cao-toc-suyt-gay-tai-nan-lien-hoan-post1518060.html
+2022-11-07 15:55:26,976 - INFO - Thread-3 reupdate link https://thanhnien.vn/khach-thuong-lam-vietnam-motor-show-2022-thich-nhat-mau-o-to-nao-post1515861.html
+2022-11-07 15:55:26,976 - INFO - Thread-1 reupdate link https://thanhnien.vn/dinh-gia-ngang-tam-bmw-x7-jeep-grand-cherokee-trang-bi-gi-post1516303.html
+2022-11-07 15:55:27,050 - ERROR - {'message': 'exception when get comment', 'status_code': 403, 'res.text': '', 'api': 'https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1516266', 'link_post': 'https://thanhnien.vn/diem-mat-dan-xe-chat-choi-nhung-kho-ban-tai-viet-nam-post1516266.html'}
+Traceback (most recent call last):
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 100, in crawl_in_post
+    data = detect_responseType(config_site['comment_in_post']['responseType'], res)
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 163, in detect_responseType
+    return res.json()
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-11-07 15:55:27,051 - INFO - Thread-2 finish reupdate comment link: https://thanhnien.vn/diem-mat-dan-xe-chat-choi-nhung-kho-ban-tai-viet-nam-post1516266.html
+2022-11-07 15:55:27,051 - INFO - Thread-2 reupdate link https://thanhnien.vn/5-o-to-cu-doi-cao-dang-mua-trong-tam-gia-250-trieu-dong-post1509573.html
+2022-11-07 15:55:27,112 - ERROR - {'message': 'exception when get comment', 'status_code': 403, 'res.text': '', 'api': 'https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1516072', 'link_post': 'https://thanhnien.vn/diem-mat-nang-cap-dat-gia-tren-mitsubishi-triton-cua-doi-dua-viet-nam-post1516072.html'}
+Traceback (most recent call last):
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 100, in crawl_in_post
+    data = detect_responseType(config_site['comment_in_post']['responseType'], res)
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 163, in detect_responseType
+    return res.json()
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-11-07 15:55:27,113 - INFO - Thread-4 finish reupdate comment link: https://thanhnien.vn/diem-mat-nang-cap-dat-gia-tren-mitsubishi-triton-cua-doi-dua-viet-nam-post1516072.html
+2022-11-07 15:55:27,113 - INFO - Thread-4 reupdate link https://thanhnien.vn/volkswagen-tiguan-allspace-2023-cai-tien-nhung-gi-post1516073.html
+2022-11-07 15:55:27,118 - ERROR - {'message': 'exception when get comment', 'status_code': 403, 'res.text': '', 'api': 'https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1515254', 'link_post': 'https://thanhnien.vn/toan-canh-vietnam-motor-show-2022-dau-an-tan-binh-xe-xanh-toa-sang-post1515254.html'}
+Traceback (most recent call last):
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 100, in crawl_in_post
+    data = detect_responseType(config_site['comment_in_post']['responseType'], res)
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 163, in detect_responseType
+    return res.json()
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-11-07 15:55:27,120 - INFO - Thread-5 finish reupdate comment link: https://thanhnien.vn/toan-canh-vietnam-motor-show-2022-dau-an-tan-binh-xe-xanh-toa-sang-post1515254.html
+2022-11-07 15:55:27,120 - INFO - Thread-5 reupdate link https://thanhnien.vn/phat-trien-nganh-dich-vu-o-to-no-luc-uom-mam-nhan-luc-ngay-tu-giang-duong-post1503312.html
+2022-11-07 15:55:27,134 - ERROR - {'message': 'exception when get comment', 'status_code': 403, 'res.text': '', 'api': 'https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1515861', 'link_post': 'https://thanhnien.vn/khach-thuong-lam-vietnam-motor-show-2022-thich-nhat-mau-o-to-nao-post1515861.html'}
+Traceback (most recent call last):
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 100, in crawl_in_post
+    data = detect_responseType(config_site['comment_in_post']['responseType'], res)
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 163, in detect_responseType
+    return res.json()
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-11-07 15:55:27,136 - ERROR - {'message': 'exception when get comment', 'status_code': 403, 'res.text': '', 'api': 'https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1516303', 'link_post': 'https://thanhnien.vn/dinh-gia-ngang-tam-bmw-x7-jeep-grand-cherokee-trang-bi-gi-post1516303.html'}
+Traceback (most recent call last):
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 100, in crawl_in_post
+    data = detect_responseType(config_site['comment_in_post']['responseType'], res)
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 163, in detect_responseType
+    return res.json()
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-11-07 15:55:27,138 - INFO - Thread-3 finish reupdate comment link: https://thanhnien.vn/khach-thuong-lam-vietnam-motor-show-2022-thich-nhat-mau-o-to-nao-post1515861.html
+2022-11-07 15:55:27,139 - INFO - Thread-3 reupdate link https://thanhnien.vn/3-luu-y-de-bao-ve-o-to-ngay-mua-bao-post1504264.html
+2022-11-07 15:55:27,141 - INFO - Thread-1 finish reupdate comment link: https://thanhnien.vn/dinh-gia-ngang-tam-bmw-x7-jeep-grand-cherokee-trang-bi-gi-post1516303.html
+2022-11-07 15:55:27,141 - INFO - Thread-1 reupdate link https://thanhnien.vn/chevrolet-corvette-c2-stingray-gan-60-nam-tuoi-trong-nhu-moi-tai-sai-gon-post1506973.html
+2022-11-07 15:55:27,156 - ERROR - {'message': 'exception when get comment', 'status_code': 403, 'res.text': '', 'api': 'https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1509573', 'link_post': 'https://thanhnien.vn/5-o-to-cu-doi-cao-dang-mua-trong-tam-gia-250-trieu-dong-post1509573.html'}
+Traceback (most recent call last):
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 100, in crawl_in_post
+    data = detect_responseType(config_site['comment_in_post']['responseType'], res)
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 163, in detect_responseType
+    return res.json()
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-11-07 15:55:27,158 - INFO - Thread-2 finish reupdate comment link: https://thanhnien.vn/5-o-to-cu-doi-cao-dang-mua-trong-tam-gia-250-trieu-dong-post1509573.html
+2022-11-07 15:55:27,158 - INFO - Thread-2 reupdate link https://thanhnien.vn/toyota-corolla-altis-do-kieu-xe-dua-duong-pho-tai-viet-nam-post1504219.html
+2022-11-07 15:55:27,232 - ERROR - {'message': 'exception when get comment', 'status_code': 403, 'res.text': '', 'api': 'https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1516073', 'link_post': 'https://thanhnien.vn/volkswagen-tiguan-allspace-2023-cai-tien-nhung-gi-post1516073.html'}
+Traceback (most recent call last):
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 100, in crawl_in_post
+    data = detect_responseType(config_site['comment_in_post']['responseType'], res)
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 163, in detect_responseType
+    return res.json()
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-11-07 15:55:27,233 - INFO - Thread-4 finish reupdate comment link: https://thanhnien.vn/volkswagen-tiguan-allspace-2023-cai-tien-nhung-gi-post1516073.html
+2022-11-07 15:55:27,233 - INFO - Thread-4 reupdate link https://thanhnien.vn/cong-nghe-e-power-giai-phap-cho-thoi-ky-qua-do-chuyen-sang-o-to-dien-post1505046.html
+2022-11-07 15:55:27,273 - ERROR - {'message': 'exception when get comment', 'status_code': 403, 'res.text': '', 'api': 'https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1503312', 'link_post': 'https://thanhnien.vn/phat-trien-nganh-dich-vu-o-to-no-luc-uom-mam-nhan-luc-ngay-tu-giang-duong-post1503312.html'}
+Traceback (most recent call last):
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 100, in crawl_in_post
+    data = detect_responseType(config_site['comment_in_post']['responseType'], res)
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 163, in detect_responseType
+    return res.json()
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-11-07 15:55:27,274 - INFO - Thread-5 finish reupdate comment link: https://thanhnien.vn/phat-trien-nganh-dich-vu-o-to-no-luc-uom-mam-nhan-luc-ngay-tu-giang-duong-post1503312.html
+2022-11-07 15:55:27,274 - INFO - Thread-5 reupdate link https://thanhnien.vn/chiec-porsche-macan-2022-ma-que-ngoc-hai-dat-mua-co-gi-dac-biet-post1451396.html
+2022-11-07 15:55:27,292 - ERROR - {'message': 'exception when get comment', 'status_code': 403, 'res.text': '', 'api': 'https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1504264', 'link_post': 'https://thanhnien.vn/3-luu-y-de-bao-ve-o-to-ngay-mua-bao-post1504264.html'}
+Traceback (most recent call last):
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 100, in crawl_in_post
+    data = detect_responseType(config_site['comment_in_post']['responseType'], res)
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 163, in detect_responseType
+    return res.json()
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-11-07 15:55:27,294 - ERROR - {'message': 'exception when get comment', 'status_code': 403, 'res.text': '', 'api': 'https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1504219', 'link_post': 'https://thanhnien.vn/toyota-corolla-altis-do-kieu-xe-dua-duong-pho-tai-viet-nam-post1504219.html'}
+Traceback (most recent call last):
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 100, in crawl_in_post
+    data = detect_responseType(config_site['comment_in_post']['responseType'], res)
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 163, in detect_responseType
+    return res.json()
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-11-07 15:55:27,295 - INFO - Thread-3 finish reupdate comment link: https://thanhnien.vn/3-luu-y-de-bao-ve-o-to-ngay-mua-bao-post1504264.html
+2022-11-07 15:55:27,296 - INFO - Thread-2 finish reupdate comment link: https://thanhnien.vn/toyota-corolla-altis-do-kieu-xe-dua-duong-pho-tai-viet-nam-post1504219.html
+2022-11-07 15:55:27,302 - ERROR - {'message': 'exception when get comment', 'status_code': 403, 'res.text': '', 'api': 'https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1506973', 'link_post': 'https://thanhnien.vn/chevrolet-corvette-c2-stingray-gan-60-nam-tuoi-trong-nhu-moi-tai-sai-gon-post1506973.html'}
+Traceback (most recent call last):
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 100, in crawl_in_post
+    data = detect_responseType(config_site['comment_in_post']['responseType'], res)
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 163, in detect_responseType
+    return res.json()
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-11-07 15:55:27,303 - INFO - Thread-1 finish reupdate comment link: https://thanhnien.vn/chevrolet-corvette-c2-stingray-gan-60-nam-tuoi-trong-nhu-moi-tai-sai-gon-post1506973.html
+2022-11-07 15:55:27,340 - ERROR - {'message': 'exception when get comment', 'status_code': 403, 'res.text': '', 'api': 'https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1505046', 'link_post': 'https://thanhnien.vn/cong-nghe-e-power-giai-phap-cho-thoi-ky-qua-do-chuyen-sang-o-to-dien-post1505046.html'}
+Traceback (most recent call last):
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 100, in crawl_in_post
+    data = detect_responseType(config_site['comment_in_post']['responseType'], res)
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 163, in detect_responseType
+    return res.json()
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-11-07 15:55:27,341 - INFO - Thread-4 finish reupdate comment link: https://thanhnien.vn/cong-nghe-e-power-giai-phap-cho-thoi-ky-qua-do-chuyen-sang-o-to-dien-post1505046.html
+2022-11-07 15:55:27,397 - ERROR - {'message': 'exception when get comment', 'status_code': 403, 'res.text': '', 'api': 'https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1451396', 'link_post': 'https://thanhnien.vn/chiec-porsche-macan-2022-ma-que-ngoc-hai-dat-mua-co-gi-dac-biet-post1451396.html'}
+Traceback (most recent call last):
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 100, in crawl_in_post
+    data = detect_responseType(config_site['comment_in_post']['responseType'], res)
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 163, in detect_responseType
+    return res.json()
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-11-07 15:55:27,398 - INFO - Thread-5 finish reupdate comment link: https://thanhnien.vn/chiec-porsche-macan-2022-ma-que-ngoc-hai-dat-mua-co-gi-dac-biet-post1451396.html
+2022-11-07 15:55:27,515 - ERROR - {'message': 'exception when get comment', 'status_code': 403, 'res.text': '', 'api': 'https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1517919', 'link_post': 'https://thanhnien.vn/benh-nhan-bi-vo-tim-ngung-tim-sau-nhoi-mau-co-tim-post1517919.html'}
+Traceback (most recent call last):
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 100, in crawl_in_post
+    data = detect_responseType(config_site['comment_in_post']['responseType'], res)
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 163, in detect_responseType
+    return res.json()
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-11-07 15:55:27,516 - INFO - Thread-6 reupdate link https://thanhnien.vn/benh-nhan-bi-vo-tim-ngung-tim-sau-nhoi-mau-co-tim-post1517919.html
+2022-11-07 15:55:27,539 - ERROR - {'message': 'exception when get comment', 'status_code': 403, 'res.text': '', 'api': 'https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1517890', 'link_post': 'https://thanhnien.vn/15-san-pham-binh-chon-giai-thuong-thanh-tuu-y-khoa-viet-nam-lan-thu-3-post1517890.html'}
+Traceback (most recent call last):
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 100, in crawl_in_post
+    data = detect_responseType(config_site['comment_in_post']['responseType'], res)
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 163, in detect_responseType
+    return res.json()
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-11-07 15:55:27,540 - INFO - Thread-7 reupdate link https://thanhnien.vn/15-san-pham-binh-chon-giai-thuong-thanh-tuu-y-khoa-viet-nam-lan-thu-3-post1517890.html
+2022-11-07 15:55:27,651 - ERROR - {'message': 'exception when get comment', 'status_code': 403, 'res.text': '', 'api': 'https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1517890', 'link_post': 'https://thanhnien.vn/15-san-pham-binh-chon-giai-thuong-thanh-tuu-y-khoa-viet-nam-lan-thu-3-post1517890.html'}
+Traceback (most recent call last):
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 100, in crawl_in_post
+    data = detect_responseType(config_site['comment_in_post']['responseType'], res)
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 163, in detect_responseType
+    return res.json()
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-11-07 15:55:27,652 - INFO - Thread-7 finish reupdate comment link: https://thanhnien.vn/15-san-pham-binh-chon-giai-thuong-thanh-tuu-y-khoa-viet-nam-lan-thu-3-post1517890.html
+2022-11-07 15:55:27,665 - ERROR - {'message': 'exception when get comment', 'status_code': 403, 'res.text': '', 'api': 'https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1517919', 'link_post': 'https://thanhnien.vn/benh-nhan-bi-vo-tim-ngung-tim-sau-nhoi-mau-co-tim-post1517919.html'}
+Traceback (most recent call last):
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 100, in crawl_in_post
+    data = detect_responseType(config_site['comment_in_post']['responseType'], res)
+  File "d:\congTacVienVCC\thang11\crawl_cmt.py", line 163, in detect_responseType
+    return res.json()
+  File "C:\Users\LONG\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-11-07 15:55:27,666 - INFO - Thread-6 finish reupdate comment link: https://thanhnien.vn/benh-nhan-bi-vo-tim-ngung-tim-sau-nhoi-mau-co-tim-post1517919.html

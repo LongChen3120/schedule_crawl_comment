@@ -5,14 +5,15 @@ import logging
 # local mongodb://localhost:27017
 # a huy mongodb://192.168.19.168:27017
 def connect_DB():
-    client = pymongo.MongoClient("mongodb://192.168.19.168:27017")
+    client = pymongo.MongoClient("mongodb://localhost:27017")
     db = client["PaPer"]
-    col_today = db["toppaper"]
-    col_1_day_before = db["1_day_before"]
-    col_2_day_before = db["2_day_before"]
+    col_temp_db = db["temp_collection"]
+    col_toppaper = db["toppaper"]
+    # col_1_day_before = db["1_day_before"]
+    # col_2_day_before = db["2_day_before"]
     col_config = db["config_crawl_cmt"]
 
-    return col_config, col_today, col_1_day_before, col_2_day_before
+    return col_config, col_temp_db, col_toppaper
 
 
 def find_config(mycol_config):
@@ -20,8 +21,8 @@ def find_config(mycol_config):
     return my_config
 
 
-def get_data(col):
-    # mycol_config, mycol_today, mycol_1_day_before, mycol_2_day_before = connect_DB()
+def get_data(col, type_doc):
+    # col_config, col_temp_db, col_toppaper
     # list_doc_today = []
 
     # list_config = mycol_config.find({})
@@ -30,15 +31,17 @@ def get_data(col):
     #         list_doc_today.append(doc)
 
     list_doc_today = []
-    for doc in col.find({"type" : 6}):
+    for doc in col.find({"type" : 6, "type_doc":type_doc}):
         list_doc_today.append(doc)
     return list_doc_today
 
 
-async def insert_col(col, list_data):
-    col.insert_many(list_data)
+async def insert_col_toppaper(col, list_data):
+    for doc in list_data:
+        del doc['type_doc']
+        col.insert_one(doc)
 
-def insert_coll(col, list_data):
+def insert_col_temp_db(col, list_data):
     col.insert_many(list_data)
 
 def update_col(col, doc):
@@ -56,7 +59,7 @@ async def delete_from_col(col, list_data):
 
 
 # def insert_config():
-#     mycol_config, mycol_today, mycol_1_day_before, mycol_2_day_before = connect_DB()
+#     col_config, col_temp_db, col_toppaper
 #     with open('config.json', 'r', encoding='utf-8') as read_config:
 #         config = json.load(read_config)
 #     mycol_config.insert_many(config)
@@ -64,7 +67,7 @@ async def delete_from_col(col, list_data):
 
 
 # def update_config():
-#     mycol_config, mycol_today, mycol_1_day_before, mycol_2_day_before = connect_DB()
+#     col_config, col_temp_db, col_toppaper
 #     with open('./crawl_comment/config.json', 'r', encoding='utf-8') as read_config:
 #         configs = json.load(read_config)
 #     for config in configs:
