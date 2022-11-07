@@ -39,22 +39,22 @@ class My_thread(threading.Thread):
 
 
 async def detect_time():
-    # if datetime.datetime.now().time().hour % 24 == 0:
+    if datetime.datetime.now().time().hour % 24 == 0:
         await asyncio.gather(check_comment_today(), check_comment_1_day_before(), check_comment_2_day_before())
-    #     print("done check")
-    #     main_crawl.main()
-    #     return 3
-    # elif datetime.datetime.now().time().hour % 6 == 0:
-    #     await asyncio.gather(check_comment_today(), check_comment_1_day_before())
-    #     main_crawl.main()
-    #     return 2
-    # elif datetime.datetime.now().time().hour % 2 == 0:
-    #     await check_comment_today()
-    #     main_crawl.main()
-    #     return 1
-    # else:
+        print("done check")
+        main_crawl.main()
+        return 3
+    elif datetime.datetime.now().time().hour % 6 == 0:
+        await asyncio.gather(check_comment_today(), check_comment_1_day_before())
+        main_crawl.main()
+        return 2
+    elif datetime.datetime.now().time().hour % 2 == 0:
+        await check_comment_today()
+        main_crawl.main()
+        return 1
+    else:
         # await check_comment_today()
-        # main_crawl.main()
+        main_crawl.main()
         return 0
 
 
@@ -133,16 +133,7 @@ async def main():
     while queue_update.empty() == False:
         doc = queue_update.get()
         query.update_col(col_temp_db, doc)
-    # if type_data == 0:
-    #     while queue_update.empty() == False:
-    #         doc = queue_update.get()
-    #         col_config, col_temp_db, col_toppaper = query.connect_DB()
-    #         query.update_col(col_temp_db, doc)
-    # else:
-    #     while queue_update.empty() == False:
-    #         doc = queue_update.get()
-    #         col_config, col_temp_db, col_toppaper = query.connect_DB()
-    #         query.update_col(mycol_2_day_before, doc)
+
     with open('./log/post_error.txt', 'w', encoding='utf-8') as write_post_err:
         while queue_post_save.empty() == False:
             cate_save = queue_post_save.get()
@@ -151,13 +142,13 @@ async def main():
 
 if __name__ == '__main__':
     start_time = time.time()
-    asyncio.run(main())
-    # scheduler = AsyncIOScheduler()
-    # scheduler.add_job(main, 'interval', hours=1)
-    # scheduler.start()
-    # try:
-    #     asyncio.get_event_loop().run_forever()
-    # except:
-    #     pass
+    # asyncio.run(main())
+    scheduler = AsyncIOScheduler()
+    scheduler.add_job(main, 'interval', hours=1)
+    scheduler.start()
+    try:
+        asyncio.get_event_loop().run_forever()
+    except:
+        pass
 
     print("done ! \ntime: ",(time.time() - start_time))
