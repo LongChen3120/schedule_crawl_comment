@@ -100,7 +100,7 @@ async def check_time(queue_doc, list_doc, time_out):
 def create_thread(queue_doc):
     list_thread = []
         
-    for i in range(1): #5
+    for i in range(5): #5
         thread = My_thread(queue_doc, queue_update)
         thread.daemon
         thread.start()
