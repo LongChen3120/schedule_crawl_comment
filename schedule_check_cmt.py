@@ -51,7 +51,7 @@ async def detect_time():
         return 2
     elif datetime.datetime.now().time().hour % 2 == 0:
         await check_comment_today()
-        # main_crawl.main()
+        main_crawl.main()
         return 1
     else:
         # await check_comment_today()
