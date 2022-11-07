@@ -29,7 +29,7 @@ def get_data(col):
     #         list_doc_today.append(doc)
 
     list_doc_today = []
-    for doc in col.find({}):
+    for doc in col.find({"type" : 6}):
         list_doc_today.append(doc)
     return list_doc_today
 
