@@ -2,7 +2,8 @@ import pymongo
 import json
 import logging
 
-
+# local mongodb://localhost:27017
+# a huy mongodb://192.168.19.168:27017
 def connect_DB():
     client = pymongo.MongoClient("mongodb://192.168.19.168:27017")
     db = client["PaPer"]
