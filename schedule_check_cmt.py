@@ -16,13 +16,13 @@ class My_thread(threading.Thread):
     def run(self):
         while self.queue_doc.empty() == False:
             doc = self.queue_doc.get()
-            # logging.info(f"{threading.current_thread().name} update link: {doc['url']}")
+            logging.info(f"{threading.current_thread().name} update link: {doc['url']}")
             comment = crawl_cmt.crawl_in_post(doc, queue_post_err)
             if comment:
                 doc['comment'] = comment
                 doc['last_check'] = datetime.datetime.now()
                 queue_update.put(doc)
-            # logging.info(f"{threading.current_thread().name} finish update comment link: {doc['url']}")
+            logging.info(f"{threading.current_thread().name} finish update comment link: {doc['url']}")
 
         while queue_post_err.empty() == False:
             doc = queue_post_err.get()

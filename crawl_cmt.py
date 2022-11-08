@@ -78,7 +78,7 @@ def crawl_out_post(link_cate, config, queue_cate_err):
 def crawl_in_post(doc, queue_post_err):
     link_post = doc['url']
     col_config, col_temp_db, col_toppaper = query.connect_DB()
-    website = link_post.split('/')[2]
+    website = doc['resourceUrl'].split('/')[2]
     config_site = col_config.find_one({"website":{"$regex":f"{website}"}})
     type_crawl = config_site['comment_in_post']['type_crawl']
     try:
@@ -105,8 +105,8 @@ def crawl_in_post(doc, queue_post_err):
                 comment = doc['comment']
                 queue_post_err.put(doc)
                 logging.exception({"message":"exception when get comment by api", 
-                                "\napi":api,
-                                "\nstatus_code":res.status_code,
+                                "api":api,
+                                "status_code":res.status_code,
                                 "link_post": link_post
                                 }, exc_info=True
                             )
