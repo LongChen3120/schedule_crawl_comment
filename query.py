@@ -94,3 +94,4 @@ async def delete_from_col(col, list_data):
 #         doc['comment'] = 10
 #         update_col(demo, doc)
 # check_update()
+#hi
