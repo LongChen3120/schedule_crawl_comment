@@ -5,7 +5,7 @@ import logging
 # local mongodb://localhost:27017
 # a huy mongodb://192.168.19.168:27017
 def connect_DB():
-    client = pymongo.MongoClient("mongodb://192.168.19.168:27017")
+    client = pymongo.MongoClient("mongodb://localhost:27017")
     db = client["PaPer"]
     col_temp_db = db["temp_collection"]
     col_toppaper = db["toppaper"]
@@ -22,17 +22,17 @@ def find_config(mycol_config):
 
 
 def get_data(col, type_doc):
-    # col_config, col_temp_db, col_toppaper
-    # list_doc_today = []
-
-    # list_config = mycol_config.find({})
-    # for config in list_config:
-    #     for doc in col.find({"resourceUrl":{"$regex":config['website']}}).limit(10):
-    #         list_doc_today.append(doc)
-
+    col_config, col_temp_db, col_toppaper = connect_DB()
     list_doc_today = []
-    for doc in col.find({"type" : 6, "type_doc":type_doc}):
-        list_doc_today.append(doc)
+
+    list_config = col_config.find({})
+    for config in list_config:
+        for doc in col.find({"resourceUrl":{"$regex":config['website']},"type" : 6, "type_doc":type_doc}).limit(3):
+            list_doc_today.append(doc)
+
+    # list_doc_today = []
+    # for doc in col.find({"type" : 6, "type_doc":type_doc}):
+    #     list_doc_today.append(doc)
     return list_doc_today
 
 
@@ -45,12 +45,14 @@ def insert_col_temp_db(col, list_data):
     col.insert_many(list_data)
 
 def update_col(col, doc):
+    # del doc['_id']
     filter = {"url": doc['url']}
     vals = {"$set":doc}
     try:
-        col.update_one(filter, vals)
+        col.update_many(filter, vals)
     except Exception as e:
-        logging.info("exception when update docs,", e)
+        print(e)
+        # logging.info("exception when update docs,", e)
 
 
 async def delete_from_col(col, list_data):
@@ -59,10 +61,10 @@ async def delete_from_col(col, list_data):
 
 
 # def insert_config():
-#     col_config, col_temp_db, col_toppaper
+#     col_config, col_temp_db, col_toppaper = connect_DB()
 #     with open('config.json', 'r', encoding='utf-8') as read_config:
 #         config = json.load(read_config)
-#     mycol_config.insert_many(config)
+#     col_config.insert_many(config)
 # insert_config()
 
 

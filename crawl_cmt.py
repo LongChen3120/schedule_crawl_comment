@@ -73,7 +73,7 @@ def crawl_out_post(link_cate, config, queue_cate_err):
             "status_code":404,
             "message":"not found data"
         }
-    
+
 
 def crawl_in_post(doc, queue_post_err):
     link_post = doc['url']
@@ -95,23 +95,26 @@ def crawl_in_post(doc, queue_post_err):
             website.close()
 
         elif type_crawl == 3:
-            api = detect_type_param(link_post, config_site['api'])
-            res = send_request(api, 1, param_scroll_down= False)
-            data = detect_responseType(config_site['comment_in_post']['responseType'], res)
             try:
+                api = detect_type_param(link_post, config_site['api'])
+                res = send_request(api, 1, param_scroll_down= False)
+                data = detect_responseType(config_site['comment_in_post']['responseType'], res)
                 comment = check_regex(config_site['comment_in_post']['detect']['re'], [str(data)])[0]
                 comment = re.findall(r'\d+', comment)[0]
             except:
                 comment = doc['comment']
                 queue_post_err.put(doc)
+                logging.exception({"message":"exception when get comment by api", 
+                                "\napi":api,
+                                "\nstatus_code":res.status_code,
+                                "link_post": link_post
+                                }, exc_info=True
+                            )
                 
     except Exception as e:
         queue_post_err.put(doc)
         comment = "0"
         logging.exception({"message":"exception when get comment", 
-                                "status_code": res.status_code,
-                                "res.text":res.text,
-                                "api":api if api else "",
                                 "link_post": link_post
                                 }, exc_info=True
                             )

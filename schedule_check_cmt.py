@@ -1,4 +1,3 @@
-
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 import time, datetime
 import query, crawl_cmt, main_crawl
@@ -39,22 +38,22 @@ class My_thread(threading.Thread):
 
 
 async def detect_time():
-    if datetime.datetime.now().time().hour % 24 == 0:
-        await asyncio.gather(check_comment_today(), check_comment_1_day_before(), check_comment_2_day_before())
-        print("done check")
-        main_crawl.main()
-        return 3
-    elif datetime.datetime.now().time().hour % 6 == 0:
-        await asyncio.gather(check_comment_today(), check_comment_1_day_before())
-        main_crawl.main()
-        return 2
-    elif datetime.datetime.now().time().hour % 2 == 0:
+    # if datetime.datetime.now().time().hour % 24 == 0:
+    #     await asyncio.gather(check_comment_today(), check_comment_1_day_before(), check_comment_2_day_before())
+    #     print("done check")
+    #     main_crawl.main()
+    #     return 3
+    # elif datetime.datetime.now().time().hour % 6 == 0:
+    #     await asyncio.gather(check_comment_today(), check_comment_1_day_before())
+    #     main_crawl.main()
+    #     return 2
+    # elif datetime.datetime.now().time().hour % 2 == 0:
+    #     await check_comment_today()
+    #     main_crawl.main()
+    #     return 1
+    # else:
         await check_comment_today()
-        main_crawl.main()
-        return 1
-    else:
-        # await check_comment_today()
-        main_crawl.main()
+        # main_crawl.main()
         return 0
 
 
@@ -67,6 +66,7 @@ async def check_comment_today():
             doc['type_doc'] = 2
             query.update_col(col_temp_db, doc)
     create_thread(queue_doc_today)
+    
 
 
 async def check_comment_1_day_before():
@@ -103,7 +103,7 @@ async def check_time(queue_doc, list_doc, time_out):
 def create_thread(queue_doc):
     list_thread = []
         
-    for i in range(5): #5
+    for i in range(3): #5
         thread = My_thread(queue_doc)
         thread.daemon
         thread.start()
@@ -142,13 +142,13 @@ async def main():
 
 if __name__ == '__main__':
     start_time = time.time()
-    # asyncio.run(main())
-    scheduler = AsyncIOScheduler()
-    scheduler.add_job(main, 'interval', hours=1)
-    scheduler.start()
-    try:
-        asyncio.get_event_loop().run_forever()
-    except:
-        pass
+    asyncio.run(main())
+    # scheduler = AsyncIOScheduler()
+    # scheduler.add_job(main, 'interval', hours=1)
+    # scheduler.start()
+    # try:
+    #     asyncio.get_event_loop().run_forever()
+    # except:
+    #     pass
 
     print("done ! \ntime: ",(time.time() - start_time))

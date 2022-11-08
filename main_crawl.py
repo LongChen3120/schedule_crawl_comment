@@ -56,7 +56,7 @@ def main():
         for link_cate in list_link_cate: 
             queue_cate.put(link_cate)
 
-        for i in range(5): #5
+        for i in range(3): #5
             thread = My_thread(queue_cate, config)
             list_thread.append(thread)
             thread.daemon
