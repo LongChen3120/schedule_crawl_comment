@@ -16,13 +16,13 @@ class My_thread(threading.Thread):
     def run(self):
         while self.queue_doc.empty() == False:
             doc = self.queue_doc.get()
-            # logging.info(f"{threading.current_thread().name} update link: {doc['url']}")
+            logging.info(f"{threading.current_thread().name} update link: {doc['url']}")
             comment = crawl_cmt.crawl_in_post(doc, queue_post_err)
             if comment:
                 doc['comment'] = comment
                 doc['last_check'] = datetime.datetime.now()
                 queue_update.put(doc)
-            # logging.info(f"{threading.current_thread().name} finish update comment link: {doc['url']}")
+            logging.info(f"{threading.current_thread().name} finish update comment link: {doc['url']}")
 
         while queue_post_err.empty() == False:
             doc = queue_post_err.get()
@@ -38,23 +38,23 @@ class My_thread(threading.Thread):
 
 
 async def detect_time():
-    if datetime.datetime.now().time().hour % 24 == 0:
+    # if datetime.datetime.now().time().hour % 24 == 0:
         await asyncio.gather(check_comment_today(), check_comment_1_day_before(), check_comment_2_day_before())
-        print("done check")
-        main_crawl.main()
-        return 3
-    elif datetime.datetime.now().time().hour % 6 == 0:
-        await asyncio.gather(check_comment_today(), check_comment_1_day_before())
-        main_crawl.main()
-        return 2
-    elif datetime.datetime.now().time().hour % 2 == 0:
-        await check_comment_today()
-        main_crawl.main()
-        return 1
-    else:
-        await check_comment_today()
-        main_crawl.main()
-        return 0
+    #     print("done check")
+    #     main_crawl.main()
+    #     return 3
+    # elif datetime.datetime.now().time().hour % 6 == 0:
+    #     await asyncio.gather(check_comment_today(), check_comment_1_day_before())
+    #     main_crawl.main()
+    #     return 2
+    # elif datetime.datetime.now().time().hour % 2 == 0:
+    #     await check_comment_today()
+    #     main_crawl.main()
+    #     return 1
+    # else:
+    #     await check_comment_today()
+    #     # main_crawl.main()
+    #     return 0
 
 
 async def check_comment_today():

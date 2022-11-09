@@ -93,21 +93,29 @@ def crawl_in_post(doc, queue_post_err):
             website.close()
 
         elif type_crawl == 3:
-            try:
-                api = detect_type_param(link_post, config_site['api'])
-                res = send_request(api, 1, param_scroll_down= False)
-                data = detect_responseType(config_site['comment_in_post']['responseType'], res)
-                comment = check_regex(config_site['comment_in_post']['detect']['re'], [str(data)])[0]
-                comment = re.findall(r'\d+', comment)[0]
-            except:
-                comment = doc['comment']
-                queue_post_err.put(doc)
-                logging.exception({"message":"exception when get comment by api", 
-                                "api":api,
-                                "status_code":res.status_code,
-                                "link_post": link_post
-                                }, exc_info=True
-                            )
+            list_api = detect_type_param(link_post, config_site['api'])
+            for api in list_api:
+                try:
+                    res = send_request(api, 1, param_scroll_down= False)
+                    data = detect_responseType(config_site['comment_in_post']['responseType'], res)
+                except:
+                    logging.exception({"message: exception when call api": api, 
+                                    "status_code":res.status_code,
+                                    "link_post": link_post
+                                    }, exc_info=True
+                                )
+                try:
+                    comment = check_regex(config_site['comment_in_post']['detect']['re'], [str(data)])[0]
+                    comment = re.findall(r'\d+', comment)[0]
+                    break
+                except:
+                    comment = doc['comment']
+                    # queue_post_err.put(doc)
+                    logging.exception({"message: exception when get comment in api": api, 
+                                    "status_code":res.status_code,
+                                    "link_post": link_post
+                                    }, exc_info=True
+                                )
                 
     except Exception as e:
         queue_post_err.put(doc)
@@ -122,7 +130,6 @@ def crawl_in_post(doc, queue_post_err):
 def send_request(link_cate, type_crawl, param_scroll_down):
     if type_crawl == 1:
         res = requests.get(link_cate, headers=header, timeout=10)
-        # time.sleep(0.1)
         return res
 
     elif type_crawl == 2:
@@ -132,7 +139,6 @@ def send_request(link_cate, type_crawl, param_scroll_down):
         browser = webdriver.Chrome(executable_path='./chrome_driver/chromedriver.exe', options=options)
         browser.implicitly_wait(10)
         browser.get(link_cate)
-        time.sleep(2)
         scroll_down(browser, param_scroll_down)
         return browser
 
@@ -176,13 +182,17 @@ def detect_responseType(response_type, res):
 
 def detect_type_param(link_post, config):
     api = config['url']
+    list_api = []
     for param in config['params']:
         if param['type'] == 1:
             id_post = get_id_post(link_post)
-            api = api.format(param_0 = id_post)
+            api = api.replace('param_0', id_post)
+            list_api.append(api)
         elif param['type'] == 2:
-            pass
-    return api
+            list_api.pop(0)
+            for val in param['values']:
+                list_api.append(api.replace('param_1', val))
+    return list_api
 
 
 def detect_type(type_crawl, lxml, config):
