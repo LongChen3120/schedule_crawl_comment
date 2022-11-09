@@ -71,21 +71,30 @@ async def delete_from_col(col, list_data):
 
 
 # def update_config():
-#     col_config, col_temp_db, col_toppaper
-#     with open('./crawl_comment/config.json', 'r', encoding='utf-8') as read_config:
+#     col_config, col_temp_db, col_toppaper = connect_DB()
+#     with open('config.json', 'r', encoding='utf-8') as read_config:
 #         configs = json.load(read_config)
 #     for config in configs:
 #         try:
-#             if mycol_config.find_one({"website":config['website']}):
+#             if col_config.find_one({"website":config['website']}):
 #                 mapping_site = {"website":{"$regex":f"{config['website']}"}}
 #                 update_vals = {"$set":config}
-#                 update_web = mycol_config.update_one(mapping_site, update_vals)
+#                 update_web = col_config.update_one(mapping_site, update_vals)
 #             else:
-#                 mycol_config.insert_one(config)
+#                 col_config.insert_one(config)
 #         except:
 #             print(config)
-
 # update_config()
+
+# def get_config():
+#     col_config, col_temp_db, col_toppaper = connect_DB()
+#     list_config = []
+#     for config in col_config.find({}):
+#         del config['_id']
+#         list_config.append(config)
+#     with open('config.json', 'w', encoding='utf-8') as write_config:
+#         json.dump(list_config, write_config, ensure_ascii=False, indent=4)
+# get_config()
 
 # def check_update():
 #     col_config, col_temp_db, col_toppaper, demo = connect_DB()
