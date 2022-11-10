@@ -1,141 +1,54 @@
-2022-11-09 13:48:48,033 - INFO - 
+2022-11-10 12:02:36,737 - INFO - 
 
 _____________________________new_log_____________________________
-2022-11-09 13:48:48,156 - INFO - Thread-4 update link: https://thanhnien.vn/thu-tuong-pham-minh-chinh-toi-phnompenh-bat-dau-tham-chinh-thuc-campuchia-post1518996.html
-2022-11-09 13:48:48,156 - INFO - Thread-5 update link: https://thanhnien.vn/hoang-phi-dat-vang-mat-bang-tien-ti-bo-trong-vi-co-che-post1518981.html
-2022-11-09 13:48:48,156 - INFO - Thread-6 update link: https://thanhnien.vn/dai-bieu-quoc-hoi-dieu-hanh-quy-binh-on-gia-xang-dau-rat-co-van-de-post1518954.html
-2022-11-09 13:48:48,353 - ERROR - {'message: exception when get comment in api': 'https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id={1518996}', 'status_code': 200, 'link_post': 'https://thanhnien.vn/thu-tuong-pham-minh-chinh-toi-phnompenh-bat-dau-tham-chinh-thuc-campuchia-post1518996.html'}
+2022-11-10 12:02:36,790 - INFO - Thread-10 update link: https://thanhnien.vn/hoang-phi-dat-vang-mat-bang-tien-ti-bo-trong-vi-co-che-post1518981.html
+2022-11-10 12:02:36,790 - INFO - Thread-11 update link: https://thanhnien.vn/binh-thuan-cong-ty-truong-phuc-hai-khieu-nai-du-an-lan-bien-dang-bi-dieu-tra-post1518897.html
+2022-11-10 12:02:36,791 - INFO - Thread-12 update link: https://vnexpress.net/nha-ong-mo-tran-cho-nang-xuyen-thang-vao-trong-4533064.html
+2022-11-10 12:02:36,927 - INFO - Thread-12 finish update comment link: https://vnexpress.net/nha-ong-mo-tran-cho-nang-xuyen-thang-vao-trong-4533064.html
+2022-11-10 12:02:36,928 - INFO - Thread-12 update link: https://vnexpress.net/cuoc-chien-cua-hai-me-con-cung-bi-ung-thu-4530818.html
+2022-11-10 12:02:36,931 - ERROR - {'message: exception when get comment in api': 'https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id={1518981}', 'status_code': 200, 'link_post': 'https://thanhnien.vn/hoang-phi-dat-vang-mat-bang-tien-ti-bo-trong-vi-co-che-post1518981.html'}
 Traceback (most recent call last):
   File "d:\congTacVienVCC\schedule_crawl_comment\crawl_cmt.py", line 108, in crawl_in_post
     comment = check_regex(config_site['comment_in_post']['detect']['re'], [str(data)])[0]
 IndexError: list index out of range
-2022-11-09 13:48:48,355 - INFO - Thread-4 finish update comment link: https://thanhnien.vn/thu-tuong-pham-minh-chinh-toi-phnompenh-bat-dau-tham-chinh-thuc-campuchia-post1518996.html
-2022-11-09 13:48:48,355 - INFO - Thread-4 update link: https://thanhnien.vn/binh-thuan-cong-ty-truong-phuc-hai-khieu-nai-du-an-lan-bien-dang-bi-dieu-tra-post1518897.html
-2022-11-09 13:48:48,357 - ERROR - {'message: exception when get comment in api': 'https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id={1518954}', 'status_code': 200, 'link_post': 'https://thanhnien.vn/dai-bieu-quoc-hoi-dieu-hanh-quy-binh-on-gia-xang-dau-rat-co-van-de-post1518954.html'}
+2022-11-10 12:02:36,932 - INFO - Thread-10 finish update comment link: https://thanhnien.vn/hoang-phi-dat-vang-mat-bang-tien-ti-bo-trong-vi-co-che-post1518981.html
+2022-11-10 12:02:36,932 - INFO - Thread-10 update link: https://vnexpress.net/chan-gio-heo-ham-du-du-4533177.html
+2022-11-10 12:02:36,935 - ERROR - {'message: exception when get comment in api': 'https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id={1518897}', 'status_code': 200, 'link_post': 'https://thanhnien.vn/binh-thuan-cong-ty-truong-phuc-hai-khieu-nai-du-an-lan-bien-dang-bi-dieu-tra-post1518897.html'}
 Traceback (most recent call last):
   File "d:\congTacVienVCC\schedule_crawl_comment\crawl_cmt.py", line 108, in crawl_in_post
     comment = check_regex(config_site['comment_in_post']['detect']['re'], [str(data)])[0]
 IndexError: list index out of range
-2022-11-09 13:48:48,357 - INFO - Thread-6 finish update comment link: https://thanhnien.vn/dai-bieu-quoc-hoi-dieu-hanh-quy-binh-on-gia-xang-dau-rat-co-van-de-post1518954.html
-2022-11-09 13:48:48,357 - INFO - Thread-6 update link: https://vnexpress.net/nha-ong-mo-tran-cho-nang-xuyen-thang-vao-trong-4533064.html
-2022-11-09 13:48:48,361 - ERROR - {'message: exception when get comment in api': 'https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id={1518981}', 'status_code': 200, 'link_post': 'https://thanhnien.vn/hoang-phi-dat-vang-mat-bang-tien-ti-bo-trong-vi-co-che-post1518981.html'}
-Traceback (most recent call last):
-  File "d:\congTacVienVCC\schedule_crawl_comment\crawl_cmt.py", line 108, in crawl_in_post
-    comment = check_regex(config_site['comment_in_post']['detect']['re'], [str(data)])[0]
-IndexError: list index out of range
-2022-11-09 13:48:48,362 - INFO - Thread-5 finish update comment link: https://thanhnien.vn/hoang-phi-dat-vang-mat-bang-tien-ti-bo-trong-vi-co-che-post1518981.html
-2022-11-09 13:48:48,362 - INFO - Thread-5 update link: https://vnexpress.net/cuoc-chien-cua-hai-me-con-cung-bi-ung-thu-4530818.html
-2022-11-09 13:48:48,430 - INFO - Thread-5 finish update comment link: https://vnexpress.net/cuoc-chien-cua-hai-me-con-cung-bi-ung-thu-4530818.html
-2022-11-09 13:48:48,430 - INFO - Thread-5 update link: https://vnexpress.net/chan-gio-heo-ham-du-du-4533177.html
-2022-11-09 13:48:48,468 - INFO - Thread-6 finish update comment link: https://vnexpress.net/nha-ong-mo-tran-cho-nang-xuyen-thang-vao-trong-4533064.html
-2022-11-09 13:48:48,468 - INFO - Thread-6 update link: https://vnexpress.net/nhung-cong-dung-khac-cua-cu-toi-4533154.html
-2022-11-09 13:48:48,485 - INFO - Thread-5 finish update comment link: https://vnexpress.net/chan-gio-heo-ham-du-du-4533177.html
-2022-11-09 13:48:48,485 - INFO - Thread-5 update link: https://vnexpress.net/co-nen-khoet-tran-nhua-lap-den-4532978.html
-2022-11-09 13:48:48,509 - ERROR - {'message: exception when get comment in api': 'https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id={1518897}', 'status_code': 200, 'link_post': 'https://thanhnien.vn/binh-thuan-cong-ty-truong-phuc-hai-khieu-nai-du-an-lan-bien-dang-bi-dieu-tra-post1518897.html'}
-Traceback (most recent call last):
-  File "d:\congTacVienVCC\schedule_crawl_comment\crawl_cmt.py", line 108, in crawl_in_post
-    comment = check_regex(config_site['comment_in_post']['detect']['re'], [str(data)])[0]
-IndexError: list index out of range
-2022-11-09 13:48:48,510 - INFO - Thread-4 finish update comment link: https://thanhnien.vn/binh-thuan-cong-ty-truong-phuc-hai-khieu-nai-du-an-lan-bien-dang-bi-dieu-tra-post1518897.html
-2022-11-09 13:48:48,510 - INFO - Thread-4 update link: https://tuoitre.vn/biet-phu-4-mat-tien-cua-vo-cuu-bi-thu-thanh-uy-ubnd-tp-kon-tum-co-dau-hieu-co-y-lam-trai-20221107210633113.htm
-2022-11-09 13:48:48,522 - INFO - Thread-6 finish update comment link: https://vnexpress.net/nhung-cong-dung-khac-cua-cu-toi-4533154.html
-2022-11-09 13:48:48,522 - INFO - Thread-6 update link: https://tuoitre.vn/lam-dong-thay-the-bi-thu-thanh-uy-bao-loc-20221107192803721.htm
-2022-11-09 13:48:48,545 - INFO - Thread-5 finish update comment link: https://vnexpress.net/co-nen-khoet-tran-nhua-lap-den-4532978.html
-2022-11-09 13:48:48,545 - INFO - Thread-5 update link: https://tuoitre.vn/phai-thu-hoi-toi-da-tai-san-tham-nhung-20221105075130123.htm
-2022-11-09 13:49:15,821 - INFO - Thread-6 finish update comment link: https://tuoitre.vn/lam-dong-thay-the-bi-thu-thanh-uy-bao-loc-20221107192803721.htm
-2022-11-09 13:49:15,821 - INFO - Thread-6 update link: https://tuoitre.vn/infographic-thu-hoi-hon-9-500-ti-dong-hon-393-115m2-dat-tu-cac-vu-an-tham-nhung-kinh-te-nao-20221020102912155.htm
-2022-11-09 13:49:15,822 - INFO - Thread-4 finish update comment link: https://tuoitre.vn/biet-phu-4-mat-tien-cua-vo-cuu-bi-thu-thanh-uy-ubnd-tp-kon-tum-co-dau-hieu-co-y-lam-trai-20221107210633113.htm
-2022-11-09 13:49:15,822 - INFO - Thread-4 update link: https://tuoitre.vn/co-loai-thuoc-chao-thau-re-giat-minh-lam-bang-bot-mi-cung-khong-co-gia-do-20221107182937873.htm
-2022-11-09 13:49:38,369 - INFO - Thread-6 finish update comment link: https://tuoitre.vn/infographic-thu-hoi-hon-9-500-ti-dong-hon-393-115m2-dat-tu-cac-vu-an-tham-nhung-kinh-te-nao-20221020102912155.htm
-2022-11-09 13:49:38,369 - INFO - Thread-6 update link: https://tuoitre.vn/ngay-phan-quyet-voi-hang-ngan-nhan-vien-twitter-bat-dau-20221104220428495.htm
-2022-11-09 13:49:39,434 - INFO - Thread-5 finish update comment link: https://tuoitre.vn/phai-thu-hoi-toi-da-tai-san-tham-nhung-20221105075130123.htm
-2022-11-09 13:49:39,434 - INFO - Thread-5 update link: https://tuoitre.vn/7-500-nhan-vien-twitter-hoi-hop-cho-tin-du-tu-ti-phu-elon-musk-20221104090251917.htm
-2022-11-09 13:49:49,081 - INFO - Thread-4 finish update comment link: https://tuoitre.vn/co-loai-thuoc-chao-thau-re-giat-minh-lam-bang-bot-mi-cung-khong-co-gia-do-20221107182937873.htm
-2022-11-09 13:49:49,081 - INFO - Thread-4 update link: https://tuoitre.vn/bo-truong-sau-vu-ba-nguyen-phuong-hang-dieu-chinh-quy-dinh-ve-livestream-20221104082139954.htm
-2022-11-09 13:50:04,763 - INFO - Thread-5 finish update comment link: https://tuoitre.vn/7-500-nhan-vien-twitter-hoi-hop-cho-tin-du-tu-ti-phu-elon-musk-20221104090251917.htm
-2022-11-09 13:50:04,763 - INFO - Thread-5 update link: https://tuoitre.vn/doi-giay-di-bo-nhanh-nhat-the-gioi-20221103071950868.htm
-2022-11-09 13:50:04,824 - INFO - Thread-6 finish update comment link: https://tuoitre.vn/ngay-phan-quyet-voi-hang-ngan-nhan-vien-twitter-bat-dau-20221104220428495.htm
-2022-11-09 13:50:04,824 - INFO - Thread-6 update link: https://tuoitre.vn/bi-chiem-doat-sim-dien-thoai-mat-tien-ti-20221101215223421.htm
-2022-11-09 13:50:36,042 - INFO - Thread-4 finish update comment link: https://tuoitre.vn/bo-truong-sau-vu-ba-nguyen-phuong-hang-dieu-chinh-quy-dinh-ve-livestream-20221104082139954.htm
-2022-11-09 13:50:36,043 - INFO - Thread-4 update link: https://tuoitre.vn/ho-lam-gi-ma-so-huu-ca-ngan-sim-dien-thoai-di-dong-moi-nguoi-20221031195417313.htm
-2022-11-09 13:50:47,945 - INFO - Thread-5 finish update comment link: https://tuoitre.vn/doi-giay-di-bo-nhanh-nhat-the-gioi-20221103071950868.htm
-2022-11-09 13:50:47,946 - INFO - Thread-6 finish update comment link: https://tuoitre.vn/bi-chiem-doat-sim-dien-thoai-mat-tien-ti-20221101215223421.htm
-2022-11-09 13:50:47,946 - INFO - Thread-5 update link: https://tuoitre.vn/ra-mat-ung-dung-dinh-danh-dien-tu-xai-nhu-cccd-gan-chip-co-the-thong-bao-luu-tru-ngay-tren-app-20220718161718109.htm
-2022-11-09 13:50:47,946 - INFO - Thread-6 update link: https://tuoitre.vn/internet-dang-co-che-giau-dieu-gi-khoi-nguoi-dung-20220826151833432.htm
-2022-11-09 13:51:08,754 - INFO - Thread-6 finish update comment link: https://tuoitre.vn/internet-dang-co-che-giau-dieu-gi-khoi-nguoi-dung-20220826151833432.htm
-2022-11-09 13:51:08,755 - INFO - Thread-6 update link: https://tuoitre.vn/dien-thoai-man-hinh-gap-khi-nao-moi-thong-dung-20221010152421759.htm
-2022-11-09 13:51:08,755 - INFO - Thread-5 finish update comment link: https://tuoitre.vn/ra-mat-ung-dung-dinh-danh-dien-tu-xai-nhu-cccd-gan-chip-co-the-thong-bao-luu-tru-ngay-tren-app-20220718161718109.htm
-2022-11-09 13:51:08,755 - INFO - Thread-5 update link: https://tuoitre.vn/ban-da-biet-cach-kich-hoat-che-do-sos-tren-dien-thoai-chua-20220829170805565.htm
-2022-11-09 13:51:16,693 - INFO - Thread-4 finish update comment link: https://tuoitre.vn/ho-lam-gi-ma-so-huu-ca-ngan-sim-dien-thoai-di-dong-moi-nguoi-20221031195417313.htm
-2022-11-09 13:51:16,694 - INFO - Thread-4 update link: https://tuoitre.vn/giai-phap-hoa-tang-xanh-20201202180358404.htm
-2022-11-09 13:51:34,638 - INFO - Thread-6 finish update comment link: https://tuoitre.vn/dien-thoai-man-hinh-gap-khi-nao-moi-thong-dung-20221010152421759.htm
-2022-11-09 13:51:34,638 - INFO - Thread-5 finish update comment link: https://tuoitre.vn/ban-da-biet-cach-kich-hoat-che-do-sos-tren-dien-thoai-chua-20220829170805565.htm
-2022-11-09 13:51:34,638 - INFO - Thread-6 update link: https://tuoitre.vn/google-thay-doi-cach-tuyen-dung-khong-bang-cap-cung-co-co-hoi-20191230202917855.htm
-2022-11-09 13:51:34,638 - INFO - Thread-5 update link: https://vietnamnet.vn/de-nghi-bo-quy-binh-on-gia-xang-dau-2078174.html
-2022-11-09 13:51:34,795 - INFO - Thread-5 finish update comment link: https://vietnamnet.vn/de-nghi-bo-quy-binh-on-gia-xang-dau-2078174.html
-2022-11-09 13:51:34,796 - INFO - Thread-5 update link: https://vietnamnet.vn/bo-truong-noi-vu-se-co-bo-chinh-sach-thu-hut-trong-dung-nhan-tai-2077360.html
-2022-11-09 13:51:34,863 - INFO - Thread-5 finish update comment link: https://vietnamnet.vn/bo-truong-noi-vu-se-co-bo-chinh-sach-thu-hut-trong-dung-nhan-tai-2077360.html
-2022-11-09 13:51:34,863 - INFO - Thread-5 update link: https://vietnamnet.vn/viet-nam-trung-quoc-khi-hai-ben-deu-dac-biet-coi-trong-vi-the-cua-nhau-2076841.html
-2022-11-09 13:51:34,986 - INFO - Thread-5 finish update comment link: https://vietnamnet.vn/viet-nam-trung-quoc-khi-hai-ben-deu-dac-biet-coi-trong-vi-the-cua-nhau-2076841.html
-2022-11-09 13:51:34,986 - INFO - Thread-5 update link: https://vietnamnet.vn/de-xuat-gia-khoi-diem-200-trieu-dong-voi-bien-so-dep-2078001.html
-2022-11-09 13:51:35,062 - INFO - Thread-5 finish update comment link: https://vietnamnet.vn/de-xuat-gia-khoi-diem-200-trieu-dong-voi-bien-so-dep-2078001.html
-2022-11-09 13:51:35,063 - INFO - Thread-5 update link: https://vietnamnet.vn/bo-truong-cong-an-kien-nghi-quoc-hoi-bo-sung-noi-sinh-tren-ho-chieu-mau-moi-2077926.html
-2022-11-09 13:51:35,138 - INFO - Thread-5 finish update comment link: https://vietnamnet.vn/bo-truong-cong-an-kien-nghi-quoc-hoi-bo-sung-noi-sinh-tren-ho-chieu-mau-moi-2077926.html
-2022-11-09 13:51:35,139 - INFO - Thread-5 update link: https://tuoitre.vn/phan-anh-ve-cuoc-goi-lua-dao-cuoc-goi-rac-cu-goi-156-20221031192001952.htm
-2022-11-09 13:52:00,579 - INFO - Thread-6 finish update comment link: https://tuoitre.vn/google-thay-doi-cach-tuyen-dung-khong-bang-cap-cung-co-co-hoi-20191230202917855.htm
-2022-11-09 13:52:00,579 - INFO - Thread-6 update link: https://vietnamnet.vn/sau-twitter-den-luot-nhan-vien-facebook-cho-ngay-phan-quyet-5006013.html
-2022-11-09 13:52:00,610 - INFO - Thread-4 finish update comment link: https://tuoitre.vn/giai-phap-hoa-tang-xanh-20201202180358404.htm
-2022-11-09 13:52:00,611 - INFO - Thread-4 update link: https://vietnamnet.vn/bo-truong-nguyen-manh-hung-phat-bieu-ve-phat-trien-kt-xh-vung-dong-nam-bo-5004663.html
-2022-11-09 13:52:00,732 - INFO - Thread-4 finish update comment link: https://vietnamnet.vn/bo-truong-nguyen-manh-hung-phat-bieu-ve-phat-trien-kt-xh-vung-dong-nam-bo-5004663.html
-2022-11-09 13:52:00,732 - INFO - Thread-4 update link: https://vietnamnet.vn/phat-bieu-cua-bo-truong-nguyen-manh-hung-tai-le-khai-giang-nam-hoc-2022-2023-5003936.html
-2022-11-09 13:52:00,740 - INFO - Thread-6 finish update comment link: https://vietnamnet.vn/sau-twitter-den-luot-nhan-vien-facebook-cho-ngay-phan-quyet-5006013.html
-2022-11-09 13:52:00,740 - INFO - Thread-6 update link: https://vietnamnet.vn/muon-van-thu-doan-lua-dao-hack-tai-khoan-ngan-hang-5005719.html
-2022-11-09 13:52:00,933 - INFO - Thread-4 finish update comment link: https://vietnamnet.vn/phat-bieu-cua-bo-truong-nguyen-manh-hung-tai-le-khai-giang-nam-hoc-2022-2023-5003936.html
-2022-11-09 13:52:00,933 - INFO - Thread-4 update link: https://vietnamnet.vn/ra-mat-ung-dung-gaapnow-cuoc-choi-moi-cho-bat-dong-san-thoi-40-396771.html
-2022-11-09 13:52:00,941 - INFO - Thread-6 finish update comment link: https://vietnamnet.vn/muon-van-thu-doan-lua-dao-hack-tai-khoan-ngan-hang-5005719.html
-2022-11-09 13:52:00,941 - INFO - Thread-6 update link: https://vietnamnet.vn/duolingo-de-che-ty-do-thay-doi-cuoc-choi-hoc-ngoai-ngu-truc-tuyen-5004984.html
-2022-11-09 13:52:01,065 - INFO - Thread-4 finish update comment link: https://vietnamnet.vn/ra-mat-ung-dung-gaapnow-cuoc-choi-moi-cho-bat-dong-san-thoi-40-396771.html
-2022-11-09 13:52:01,065 - INFO - Thread-4 update link: https://vietnamnet.vn/huong-dan-dang-ky-tai-khoan-cong-dich-vu-cong-quoc-gia-252938.html
-2022-11-09 13:52:01,072 - INFO - Thread-6 finish update comment link: https://vietnamnet.vn/duolingo-de-che-ty-do-thay-doi-cuoc-choi-hoc-ngoai-ngu-truc-tuyen-5004984.html
-2022-11-09 13:52:01,072 - INFO - Thread-6 update link: https://vietnamnet.vn/mot-khach-hang-quyet-khoi-kien-lazada-viet-nam-ra-toa-24615.html
-2022-11-09 13:52:01,159 - INFO - Thread-6 finish update comment link: https://vietnamnet.vn/mot-khach-hang-quyet-khoi-kien-lazada-viet-nam-ra-toa-24615.html
-2022-11-09 13:52:01,159 - INFO - Thread-6 update link: https://vietnamnet.vn/huong-dan-deo-tai-nghe-bluetooth-dung-cach-253421.html
-2022-11-09 13:52:01,212 - INFO - Thread-4 finish update comment link: https://vietnamnet.vn/huong-dan-dang-ky-tai-khoan-cong-dich-vu-cong-quoc-gia-252938.html
-2022-11-09 13:52:01,212 - INFO - Thread-4 update link: https://vietnamnet.vn/huong-dan-cach-tai-video-tiktok-khong-dinh-logo-watermark-253429.html
-2022-11-09 13:52:01,265 - INFO - Thread-6 finish update comment link: https://vietnamnet.vn/huong-dan-deo-tai-nghe-bluetooth-dung-cach-253421.html
-2022-11-09 13:52:01,265 - INFO - Thread-6 update link: https://vietnamnet.vn/wefinex-da-cap-ca-cuoc-kiem-tram-trieu-moi-thang-dang-ro-len-o-vn-254739.html
-2022-11-09 13:52:01,311 - INFO - Thread-4 finish update comment link: https://vietnamnet.vn/huong-dan-cach-tai-video-tiktok-khong-dinh-logo-watermark-253429.html
-2022-11-09 13:52:01,312 - INFO - Thread-4 update link: https://vietnamnet.vn/cach-xoa-tat-ca-thu-chua-doc-trong-hop-thu-den-gmail-24604.html
-2022-11-09 13:52:01,346 - INFO - Thread-6 finish update comment link: https://vietnamnet.vn/wefinex-da-cap-ca-cuoc-kiem-tram-trieu-moi-thang-dang-ro-len-o-vn-254739.html
-2022-11-09 13:52:01,347 - INFO - Thread-6 update link: https://vietnamnet.vn/ca-trieu-nguoi-roi-bo-twitter-vi-elon-musk-5005893.html
-2022-11-09 13:52:01,433 - INFO - Thread-6 finish update comment link: https://vietnamnet.vn/ca-trieu-nguoi-roi-bo-twitter-vi-elon-musk-5005893.html
-2022-11-09 13:52:01,433 - INFO - Thread-6 update link: https://linkhay.com/link/5800232/benh-nut-ke-hau-mon-nguyen-nhan-dau-hieu-va-cach-chua-tri-798
-2022-11-09 13:52:01,448 - INFO - Thread-4 finish update comment link: https://vietnamnet.vn/cach-xoa-tat-ca-thu-chua-doc-trong-hop-thu-den-gmail-24604.html
-2022-11-09 13:52:01,448 - INFO - Thread-4 update link: https://linkhay.com/link/5800231/bien-tan-3-pha-ac-gia-re-100-chinh-hang
-2022-11-09 13:52:06,537 - INFO - Thread-6 finish update comment link: https://linkhay.com/link/5800232/benh-nut-ke-hau-mon-nguyen-nhan-dau-hieu-va-cach-chua-tri-798
-2022-11-09 13:52:06,538 - INFO - Thread-6 update link: https://linkhay.com/link/5800230/champions-for-los-angeles-football-club-2022-mls-cup-shirt
-2022-11-09 13:52:07,153 - INFO - Thread-4 finish update comment link: https://linkhay.com/link/5800231/bien-tan-3-pha-ac-gia-re-100-chinh-hang
-2022-11-09 13:52:07,153 - INFO - Thread-4 update link: https://linkhay.com/link/5800229/phillie-phanatic-popsicle-mascot-philadelphia-phillies-shirt
-2022-11-09 13:52:07,682 - INFO - Thread-6 finish update comment link: https://linkhay.com/link/5800230/champions-for-los-angeles-football-club-2022-mls-cup-shirt
-2022-11-09 13:52:07,683 - INFO - Thread-6 update link: https://linkhay.com/link/5800228/anang-tho-vung-caoa-la-cai-ten-ma-nguoi-ta-dat-cho-ve-dep-cua-sapa-nguoi-ta-luon-chon-combo-di-sapa-de-co-the-huong-thu-nghi-duong-sau-nhung-ap-luc-bon-be-cuoc-song
-2022-11-09 13:52:08,712 - INFO - Thread-4 finish update comment link: https://linkhay.com/link/5800229/phillie-phanatic-popsicle-mascot-philadelphia-phillies-shirt
-2022-11-09 13:52:08,713 - INFO - Thread-4 update link: https://vietnamnet.vn/whatsapp-duoc-phat-trien-tren-dien-thoai-cuc-gach-nhu-the-nao-254068.html
-2022-11-09 13:52:08,774 - INFO - Thread-4 finish update comment link: https://vietnamnet.vn/whatsapp-duoc-phat-trien-tren-dien-thoai-cuc-gach-nhu-the-nao-254068.html
-2022-11-09 13:52:08,775 - INFO - Thread-4 update link: https://vietnamnet.vn/da-co-the-chuyen-tien-tu-mobile-banking-vao-tai-khoan-mobile-money-cua-viettel-5002984.html
-2022-11-09 13:52:08,833 - INFO - Thread-4 finish update comment link: https://vietnamnet.vn/da-co-the-chuyen-tien-tu-mobile-banking-vao-tai-khoan-mobile-money-cua-viettel-5002984.html
-2022-11-09 13:52:08,834 - INFO - Thread-4 update link: https://vietnamnet.vn/gia-galaxy-note-10-giam-ca-chuc-trieu-dong-chua-khi-nao-re-the-256425.html
-2022-11-09 13:52:08,901 - INFO - Thread-4 finish update comment link: https://vietnamnet.vn/gia-galaxy-note-10-giam-ca-chuc-trieu-dong-chua-khi-nao-re-the-256425.html
-2022-11-09 13:52:08,901 - INFO - Thread-4 update link: https://vietnamnet.vn//ictnews.vietnamnet.vn/muoi-trieu-nguoi-dan-viet-nam-da-len-nen-tang-onetouch-hoc-ky-nang-so-5005905.html
-2022-11-09 13:52:08,977 - INFO - Thread-4 finish update comment link: https://vietnamnet.vn//ictnews.vietnamnet.vn/muoi-trieu-nguoi-dan-viet-nam-da-len-nen-tang-onetouch-hoc-ky-nang-so-5005905.html
-2022-11-09 13:52:08,977 - INFO - Thread-4 update link: https://vietnamnet.vn/may-bay-vu-tru-tuyet-mat-cua-my-da-o-tren-quy-dao-900-ngay-5006058.html
-2022-11-09 13:52:09,049 - INFO - Thread-4 finish update comment link: https://vietnamnet.vn/may-bay-vu-tru-tuyet-mat-cua-my-da-o-tren-quy-dao-900-ngay-5006058.html
-2022-11-09 13:52:09,049 - INFO - Thread-4 update link: https://vietnamnet.vn/cac-bo-tinh-hay-dat-nhieu-bai-toan-cho-doanh-nghiep-cong-nghe-so-viet-nam-5005791.html
-2022-11-09 13:52:09,128 - INFO - Thread-4 finish update comment link: https://vietnamnet.vn/cac-bo-tinh-hay-dat-nhieu-bai-toan-cho-doanh-nghiep-cong-nghe-so-viet-nam-5005791.html
-2022-11-09 13:52:09,128 - INFO - Thread-4 update link: https://vietnamnet.vn/chuyen-doi-so-huong-den-nong-thon-moi-thong-minh-o-thai-nguyen-5005566.html
-2022-11-09 13:52:09,244 - INFO - Thread-4 finish update comment link: https://vietnamnet.vn/chuyen-doi-so-huong-den-nong-thon-moi-thong-minh-o-thai-nguyen-5005566.html
-2022-11-09 13:52:09,244 - INFO - Thread-4 update link: https://vietnamnet.vn/pha-xu-ly-xuat-than-cua-nguoi-lai-xe-may-sau-khi-bi-o-to-dam-5005904.html
-2022-11-09 13:52:09,333 - INFO - Thread-4 finish update comment link: https://vietnamnet.vn/pha-xu-ly-xuat-than-cua-nguoi-lai-xe-may-sau-khi-bi-o-to-dam-5005904.html
-2022-11-09 13:52:09,333 - INFO - Thread-4 update link: https://vietnamnet.vn/muoi-trieu-nguoi-dan-viet-nam-da-len-nen-tang-onetouch-hoc-ky-nang-so-5005905.html
-2022-11-09 13:52:09,428 - INFO - Thread-4 finish update comment link: https://vietnamnet.vn/muoi-trieu-nguoi-dan-viet-nam-da-len-nen-tang-onetouch-hoc-ky-nang-so-5005905.html
-2022-11-09 13:52:09,981 - INFO - Thread-6 finish update comment link: https://linkhay.com/link/5800228/anang-tho-vung-caoa-la-cai-ten-ma-nguoi-ta-dat-cho-ve-dep-cua-sapa-nguoi-ta-luon-chon-combo-di-sapa-de-co-the-huong-thu-nghi-duong-sau-nhung-ap-luc-bon-be-cuoc-song
-2022-11-09 13:52:17,013 - INFO - Thread-5 finish update comment link: https://tuoitre.vn/phan-anh-ve-cuoc-goi-lua-dao-cuoc-goi-rac-cu-goi-156-20221031192001952.htm
+2022-11-10 12:02:36,936 - INFO - Thread-11 finish update comment link: https://thanhnien.vn/binh-thuan-cong-ty-truong-phuc-hai-khieu-nai-du-an-lan-bien-dang-bi-dieu-tra-post1518897.html
+2022-11-10 12:02:36,936 - INFO - Thread-11 update link: https://vnexpress.net/nhung-cong-dung-khac-cua-cu-toi-4533154.html
+2022-11-10 12:02:37,018 - INFO - Thread-10 finish update comment link: https://vnexpress.net/chan-gio-heo-ham-du-du-4533177.html
+2022-11-10 12:02:37,020 - INFO - Thread-12 finish update comment link: https://vnexpress.net/cuoc-chien-cua-hai-me-con-cung-bi-ung-thu-4530818.html
+2022-11-10 12:02:37,020 - INFO - Thread-10 update link: https://vnexpress.net/co-nen-khoet-tran-nhua-lap-den-4532978.html
+2022-11-10 12:02:37,023 - INFO - Thread-11 finish update comment link: https://vnexpress.net/nhung-cong-dung-khac-cua-cu-toi-4533154.html
+2022-11-10 12:02:37,023 - INFO - Thread-12 update link: https://tuoitre.vn/biet-phu-4-mat-tien-cua-vo-cuu-bi-thu-thanh-uy-ubnd-tp-kon-tum-co-dau-hieu-co-y-lam-trai-20221107210633113.htm
+2022-11-10 12:02:37,024 - INFO - Thread-11 update link: https://tuoitre.vn/lam-dong-thay-the-bi-thu-thanh-uy-bao-loc-20221107192803721.htm
+2022-11-10 12:02:37,106 - INFO - Thread-10 finish update comment link: https://vnexpress.net/co-nen-khoet-tran-nhua-lap-den-4532978.html
+2022-11-10 12:02:37,106 - INFO - Thread-10 update link: https://tuoitre.vn/phai-thu-hoi-toi-da-tai-san-tham-nhung-20221105075130123.htm
+2022-11-10 12:02:53,965 - INFO - Thread-11 finish update comment link: https://tuoitre.vn/lam-dong-thay-the-bi-thu-thanh-uy-bao-loc-20221107192803721.htm
+2022-11-10 12:02:53,966 - INFO - Thread-12 finish update comment link: https://tuoitre.vn/biet-phu-4-mat-tien-cua-vo-cuu-bi-thu-thanh-uy-ubnd-tp-kon-tum-co-dau-hieu-co-y-lam-trai-20221107210633113.htm
+2022-11-10 12:02:53,966 - INFO - Thread-11 update link: https://tuoitre.vn/infographic-thu-hoi-hon-9-500-ti-dong-hon-393-115m2-dat-tu-cac-vu-an-tham-nhung-kinh-te-nao-20221020102912155.htm
+2022-11-10 12:02:53,966 - INFO - Thread-12 update link: https://tuoitre.vn/co-loai-thuoc-chao-thau-re-giat-minh-lam-bang-bot-mi-cung-khong-co-gia-do-20221107182937873.htm
+2022-11-10 12:03:15,118 - INFO - Thread-10 finish update comment link: https://tuoitre.vn/phai-thu-hoi-toi-da-tai-san-tham-nhung-20221105075130123.htm
+2022-11-10 12:03:15,118 - INFO - Thread-10 update link: https://vietnamnet.vn/whatsapp-duoc-phat-trien-tren-dien-thoai-cuc-gach-nhu-the-nao-254068.html
+2022-11-10 12:03:15,269 - INFO - Thread-10 finish update comment link: https://vietnamnet.vn/whatsapp-duoc-phat-trien-tren-dien-thoai-cuc-gach-nhu-the-nao-254068.html
+2022-11-10 12:03:15,269 - INFO - Thread-10 update link: https://vietnamnet.vn/da-co-the-chuyen-tien-tu-mobile-banking-vao-tai-khoan-mobile-money-cua-viettel-5002984.html
+2022-11-10 12:03:15,354 - INFO - Thread-10 finish update comment link: https://vietnamnet.vn/da-co-the-chuyen-tien-tu-mobile-banking-vao-tai-khoan-mobile-money-cua-viettel-5002984.html
+2022-11-10 12:03:15,354 - INFO - Thread-10 update link: https://vietnamnet.vn/gia-galaxy-note-10-giam-ca-chuc-trieu-dong-chua-khi-nao-re-the-256425.html
+2022-11-10 12:03:15,452 - INFO - Thread-10 finish update comment link: https://vietnamnet.vn/gia-galaxy-note-10-giam-ca-chuc-trieu-dong-chua-khi-nao-re-the-256425.html
+2022-11-10 12:03:15,452 - INFO - Thread-10 update link: https://vietnamnet.vn//ictnews.vietnamnet.vn/muoi-trieu-nguoi-dan-viet-nam-da-len-nen-tang-onetouch-hoc-ky-nang-so-5005905.html
+2022-11-10 12:03:15,536 - INFO - Thread-10 finish update comment link: https://vietnamnet.vn//ictnews.vietnamnet.vn/muoi-trieu-nguoi-dan-viet-nam-da-len-nen-tang-onetouch-hoc-ky-nang-so-5005905.html
+2022-11-10 12:03:15,536 - INFO - Thread-10 update link: https://vietnamnet.vn/may-bay-vu-tru-tuyet-mat-cua-my-da-o-tren-quy-dao-900-ngay-5006058.html
+2022-11-10 12:03:15,612 - INFO - Thread-10 finish update comment link: https://vietnamnet.vn/may-bay-vu-tru-tuyet-mat-cua-my-da-o-tren-quy-dao-900-ngay-5006058.html
+2022-11-10 12:03:15,612 - INFO - Thread-10 update link: https://vietnamnet.vn/cac-bo-tinh-hay-dat-nhieu-bai-toan-cho-doanh-nghiep-cong-nghe-so-viet-nam-5005791.html
+2022-11-10 12:03:15,710 - INFO - Thread-10 finish update comment link: https://vietnamnet.vn/cac-bo-tinh-hay-dat-nhieu-bai-toan-cho-doanh-nghiep-cong-nghe-so-viet-nam-5005791.html
+2022-11-10 12:03:15,710 - INFO - Thread-10 update link: https://vietnamnet.vn/pha-xu-ly-xuat-than-cua-nguoi-lai-xe-may-sau-khi-bi-o-to-dam-5005904.html
+2022-11-10 12:03:15,782 - INFO - Thread-10 finish update comment link: https://vietnamnet.vn/pha-xu-ly-xuat-than-cua-nguoi-lai-xe-may-sau-khi-bi-o-to-dam-5005904.html
+2022-11-10 12:03:15,783 - INFO - Thread-10 update link: https://vietnamnet.vn/muoi-trieu-nguoi-dan-viet-nam-da-len-nen-tang-onetouch-hoc-ky-nang-so-5005905.html
+2022-11-10 12:03:15,987 - INFO - Thread-10 finish update comment link: https://vietnamnet.vn/muoi-trieu-nguoi-dan-viet-nam-da-len-nen-tang-onetouch-hoc-ky-nang-so-5005905.html
+2022-11-10 12:03:31,111 - INFO - Thread-11 finish update comment link: https://tuoitre.vn/infographic-thu-hoi-hon-9-500-ti-dong-hon-393-115m2-dat-tu-cac-vu-an-tham-nhung-kinh-te-nao-20221020102912155.htm
+2022-11-10 12:03:31,673 - INFO - Thread-12 finish update comment link: https://tuoitre.vn/co-loai-thuoc-chao-thau-re-giat-minh-lam-bang-bot-mi-cung-khong-co-gia-do-20221107182937873.htm
+2022-11-10 12:03:31,697 - INFO - Job "main (trigger: interval[0:05:00], next run at: 2022-11-10 12:07:35 +07)" executed successfully

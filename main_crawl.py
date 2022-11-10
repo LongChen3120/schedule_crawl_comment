@@ -8,21 +8,22 @@ import asyncio
 
 
 class My_thread(threading.Thread):
-    def __init__(self, queue_cate, config):
+    def __init__(self, queue_cate, config, queue_cate_err, queue_cate_save):
         threading.Thread.__init__(self)
         self.queue_cate = queue_cate
         self.config = config
+        self.queue_cate_err = queue_cate_err
+        self.queue_cate_save = queue_cate_save
     
     def run(self):
-        main_handler(self.queue_cate, self.config)
+        main_handler(self.queue_cate, self.config, self.queue_cate_err, self.queue_cate_save)
  
-def main_handler(queue_cate, config_site):
+def main_handler(queue_cate, config_site, queue_cate_err, queue_cate_save):
     while queue_cate.empty() == False:  
         link_cate = queue_cate.get()
-        # print(f"{threading.current_thread().name} got url: {link_cate}")
-        # logging.info(f"{threading.current_thread().name} got url: {link_cate}")
+        logging.info(f"{threading.current_thread().name} got url: {link_cate}")
         crawl_cmt.crawl_out_post(link_cate, config_site, queue_cate_err)
-        # logging.info(f"{threading.current_thread().name} finished crawl out post url: {link_cate}")
+        logging.info(f"{threading.current_thread().name} finished crawl out post url: {link_cate}")
 
     while queue_cate_err.empty() == False:
         cate_err = queue_cate_err.get()
@@ -45,7 +46,6 @@ def main():
 
     list_thread = []
     queue_cate = queue.Queue()
-    global queue_cate_err, queue_cate_save
     queue_cate_err = queue.Queue()
     queue_cate_save = queue.Queue()
 
@@ -57,7 +57,7 @@ def main():
             queue_cate.put(link_cate)
 
         for i in range(3): #5
-            thread = My_thread(queue_cate, config)
+            thread = My_thread(queue_cate, config, queue_cate_err, queue_cate_save)
             list_thread.append(thread)
             thread.daemon
             thread.start()

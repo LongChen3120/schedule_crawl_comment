@@ -31,33 +31,34 @@ def get_data(col, type_doc):
     #         list_doc_today.append(doc)
 
     list_doc_today = []
-    for doc in col.find({"type" : 6, "type_doc":type_doc}):
-        list_doc_today.append(doc)
+    if type_doc == "get_all":
+        for doc in col.find({}):
+            list_doc_today.append(doc)
+    else:
+        for type in type_doc:
+            for doc in col.find({"type" : 6, "type_doc":type}):
+                list_doc_today.append(doc)
     return list_doc_today
 
 
-async def insert_col_toppaper(col, list_data):
-    for doc in list_data:
-        del doc['type_doc']
-        col.insert_one(doc)
-
-def insert_col_temp_db(col, list_data):
+def insert_col(col, list_data):
     col.insert_many(list_data)
 
-def update_col(col, doc):
-    try:
-        del doc['_id']
-    except:
-        pass
-    filter = {"url": doc['url']}
-    vals = {"$set":doc}
-    try:
-        col.update_many(filter, vals)
-    except Exception as e:
-        logging.info("exception when update docs,", e)
+def update_col(col, list_doc):
+    for doc in list_doc:
+        try:
+            del doc['_id']
+        except:
+            pass
+        filter = {"url": doc['url']}
+        vals = {"$set":doc}
+        try:
+            col.update_many(filter, vals)
+        except Exception as e:
+            logging.info("exception when update docs,", e)
 
 
-async def delete_from_col(col, list_data):
+def delete_from_col(col, list_data):
     for doc in list_data:
         col.delete_one(doc)
 
