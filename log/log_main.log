@@ -1,54 +1,190 @@
-2022-11-10 12:02:36,737 - INFO - 
+2022-11-10 14:41:04,019 - INFO - 
 
 _____________________________new_log_____________________________
-2022-11-10 12:02:36,790 - INFO - Thread-10 update link: https://thanhnien.vn/hoang-phi-dat-vang-mat-bang-tien-ti-bo-trong-vi-co-che-post1518981.html
-2022-11-10 12:02:36,790 - INFO - Thread-11 update link: https://thanhnien.vn/binh-thuan-cong-ty-truong-phuc-hai-khieu-nai-du-an-lan-bien-dang-bi-dieu-tra-post1518897.html
-2022-11-10 12:02:36,791 - INFO - Thread-12 update link: https://vnexpress.net/nha-ong-mo-tran-cho-nang-xuyen-thang-vao-trong-4533064.html
-2022-11-10 12:02:36,927 - INFO - Thread-12 finish update comment link: https://vnexpress.net/nha-ong-mo-tran-cho-nang-xuyen-thang-vao-trong-4533064.html
-2022-11-10 12:02:36,928 - INFO - Thread-12 update link: https://vnexpress.net/cuoc-chien-cua-hai-me-con-cung-bi-ung-thu-4530818.html
-2022-11-10 12:02:36,931 - ERROR - {'message: exception when get comment in api': 'https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id={1518981}', 'status_code': 200, 'link_post': 'https://thanhnien.vn/hoang-phi-dat-vang-mat-bang-tien-ti-bo-trong-vi-co-che-post1518981.html'}
+2022-11-10 14:42:04,023 - WARNING - Execution of job "main (trigger: interval[0:01:00], next run at: 2022-11-10 14:42:04 +07)" skipped: maximum number of running instances reached (1)
+2022-11-10 14:42:26,586 - ERROR - {'message': 'exception when get comment', 'link_post': 'https://tuoitre.vn/nha-van-phap-marc-levy-xuc-dong-khi-xem-kich-moi-dieu-ta-chua-noi-20221108041647732.htm'}
 Traceback (most recent call last):
-  File "d:\congTacVienVCC\schedule_crawl_comment\crawl_cmt.py", line 108, in crawl_in_post
-    comment = check_regex(config_site['comment_in_post']['detect']['re'], [str(data)])[0]
-IndexError: list index out of range
-2022-11-10 12:02:36,932 - INFO - Thread-10 finish update comment link: https://thanhnien.vn/hoang-phi-dat-vang-mat-bang-tien-ti-bo-trong-vi-co-che-post1518981.html
-2022-11-10 12:02:36,932 - INFO - Thread-10 update link: https://vnexpress.net/chan-gio-heo-ham-du-du-4533177.html
-2022-11-10 12:02:36,935 - ERROR - {'message: exception when get comment in api': 'https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id={1518897}', 'status_code': 200, 'link_post': 'https://thanhnien.vn/binh-thuan-cong-ty-truong-phuc-hai-khieu-nai-du-an-lan-bien-dang-bi-dieu-tra-post1518897.html'}
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Python\Python39\lib\http\client.py", line 1377, in getresponse
+    response.begin()
+  File "C:\Python\Python39\lib\http\client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python\Python39\lib\http\client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
-  File "d:\congTacVienVCC\schedule_crawl_comment\crawl_cmt.py", line 108, in crawl_in_post
-    comment = check_regex(config_site['comment_in_post']['detect']['re'], [str(data)])[0]
-IndexError: list index out of range
-2022-11-10 12:02:36,936 - INFO - Thread-11 finish update comment link: https://thanhnien.vn/binh-thuan-cong-ty-truong-phuc-hai-khieu-nai-du-an-lan-bien-dang-bi-dieu-tra-post1518897.html
-2022-11-10 12:02:36,936 - INFO - Thread-11 update link: https://vnexpress.net/nhung-cong-dung-khac-cua-cu-toi-4533154.html
-2022-11-10 12:02:37,018 - INFO - Thread-10 finish update comment link: https://vnexpress.net/chan-gio-heo-ham-du-du-4533177.html
-2022-11-10 12:02:37,020 - INFO - Thread-12 finish update comment link: https://vnexpress.net/cuoc-chien-cua-hai-me-con-cung-bi-ung-thu-4530818.html
-2022-11-10 12:02:37,020 - INFO - Thread-10 update link: https://vnexpress.net/co-nen-khoet-tran-nhua-lap-den-4532978.html
-2022-11-10 12:02:37,023 - INFO - Thread-11 finish update comment link: https://vnexpress.net/nhung-cong-dung-khac-cua-cu-toi-4533154.html
-2022-11-10 12:02:37,023 - INFO - Thread-12 update link: https://tuoitre.vn/biet-phu-4-mat-tien-cua-vo-cuu-bi-thu-thanh-uy-ubnd-tp-kon-tum-co-dau-hieu-co-y-lam-trai-20221107210633113.htm
-2022-11-10 12:02:37,024 - INFO - Thread-11 update link: https://tuoitre.vn/lam-dong-thay-the-bi-thu-thanh-uy-bao-loc-20221107192803721.htm
-2022-11-10 12:02:37,106 - INFO - Thread-10 finish update comment link: https://vnexpress.net/co-nen-khoet-tran-nhua-lap-den-4532978.html
-2022-11-10 12:02:37,106 - INFO - Thread-10 update link: https://tuoitre.vn/phai-thu-hoi-toi-da-tai-san-tham-nhung-20221105075130123.htm
-2022-11-10 12:02:53,965 - INFO - Thread-11 finish update comment link: https://tuoitre.vn/lam-dong-thay-the-bi-thu-thanh-uy-bao-loc-20221107192803721.htm
-2022-11-10 12:02:53,966 - INFO - Thread-12 finish update comment link: https://tuoitre.vn/biet-phu-4-mat-tien-cua-vo-cuu-bi-thu-thanh-uy-ubnd-tp-kon-tum-co-dau-hieu-co-y-lam-trai-20221107210633113.htm
-2022-11-10 12:02:53,966 - INFO - Thread-11 update link: https://tuoitre.vn/infographic-thu-hoi-hon-9-500-ti-dong-hon-393-115m2-dat-tu-cac-vu-an-tham-nhung-kinh-te-nao-20221020102912155.htm
-2022-11-10 12:02:53,966 - INFO - Thread-12 update link: https://tuoitre.vn/co-loai-thuoc-chao-thau-re-giat-minh-lam-bang-bot-mi-cung-khong-co-gia-do-20221107182937873.htm
-2022-11-10 12:03:15,118 - INFO - Thread-10 finish update comment link: https://tuoitre.vn/phai-thu-hoi-toi-da-tai-san-tham-nhung-20221105075130123.htm
-2022-11-10 12:03:15,118 - INFO - Thread-10 update link: https://vietnamnet.vn/whatsapp-duoc-phat-trien-tren-dien-thoai-cuc-gach-nhu-the-nao-254068.html
-2022-11-10 12:03:15,269 - INFO - Thread-10 finish update comment link: https://vietnamnet.vn/whatsapp-duoc-phat-trien-tren-dien-thoai-cuc-gach-nhu-the-nao-254068.html
-2022-11-10 12:03:15,269 - INFO - Thread-10 update link: https://vietnamnet.vn/da-co-the-chuyen-tien-tu-mobile-banking-vao-tai-khoan-mobile-money-cua-viettel-5002984.html
-2022-11-10 12:03:15,354 - INFO - Thread-10 finish update comment link: https://vietnamnet.vn/da-co-the-chuyen-tien-tu-mobile-banking-vao-tai-khoan-mobile-money-cua-viettel-5002984.html
-2022-11-10 12:03:15,354 - INFO - Thread-10 update link: https://vietnamnet.vn/gia-galaxy-note-10-giam-ca-chuc-trieu-dong-chua-khi-nao-re-the-256425.html
-2022-11-10 12:03:15,452 - INFO - Thread-10 finish update comment link: https://vietnamnet.vn/gia-galaxy-note-10-giam-ca-chuc-trieu-dong-chua-khi-nao-re-the-256425.html
-2022-11-10 12:03:15,452 - INFO - Thread-10 update link: https://vietnamnet.vn//ictnews.vietnamnet.vn/muoi-trieu-nguoi-dan-viet-nam-da-len-nen-tang-onetouch-hoc-ky-nang-so-5005905.html
-2022-11-10 12:03:15,536 - INFO - Thread-10 finish update comment link: https://vietnamnet.vn//ictnews.vietnamnet.vn/muoi-trieu-nguoi-dan-viet-nam-da-len-nen-tang-onetouch-hoc-ky-nang-so-5005905.html
-2022-11-10 12:03:15,536 - INFO - Thread-10 update link: https://vietnamnet.vn/may-bay-vu-tru-tuyet-mat-cua-my-da-o-tren-quy-dao-900-ngay-5006058.html
-2022-11-10 12:03:15,612 - INFO - Thread-10 finish update comment link: https://vietnamnet.vn/may-bay-vu-tru-tuyet-mat-cua-my-da-o-tren-quy-dao-900-ngay-5006058.html
-2022-11-10 12:03:15,612 - INFO - Thread-10 update link: https://vietnamnet.vn/cac-bo-tinh-hay-dat-nhieu-bai-toan-cho-doanh-nghiep-cong-nghe-so-viet-nam-5005791.html
-2022-11-10 12:03:15,710 - INFO - Thread-10 finish update comment link: https://vietnamnet.vn/cac-bo-tinh-hay-dat-nhieu-bai-toan-cho-doanh-nghiep-cong-nghe-so-viet-nam-5005791.html
-2022-11-10 12:03:15,710 - INFO - Thread-10 update link: https://vietnamnet.vn/pha-xu-ly-xuat-than-cua-nguoi-lai-xe-may-sau-khi-bi-o-to-dam-5005904.html
-2022-11-10 12:03:15,782 - INFO - Thread-10 finish update comment link: https://vietnamnet.vn/pha-xu-ly-xuat-than-cua-nguoi-lai-xe-may-sau-khi-bi-o-to-dam-5005904.html
-2022-11-10 12:03:15,783 - INFO - Thread-10 update link: https://vietnamnet.vn/muoi-trieu-nguoi-dan-viet-nam-da-len-nen-tang-onetouch-hoc-ky-nang-so-5005905.html
-2022-11-10 12:03:15,987 - INFO - Thread-10 finish update comment link: https://vietnamnet.vn/muoi-trieu-nguoi-dan-viet-nam-da-len-nen-tang-onetouch-hoc-ky-nang-so-5005905.html
-2022-11-10 12:03:31,111 - INFO - Thread-11 finish update comment link: https://tuoitre.vn/infographic-thu-hoi-hon-9-500-ti-dong-hon-393-115m2-dat-tu-cac-vu-an-tham-nhung-kinh-te-nao-20221020102912155.htm
-2022-11-10 12:03:31,673 - INFO - Thread-12 finish update comment link: https://tuoitre.vn/co-loai-thuoc-chao-thau-re-giat-minh-lam-bang-bot-mi-cung-khong-co-gia-do-20221107182937873.htm
-2022-11-10 12:03:31,697 - INFO - Job "main (trigger: interval[0:05:00], next run at: 2022-11-10 12:07:35 +07)" executed successfully
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\crawl_cmt.py", line 88, in crawl_in_post
+    website = send_request(link_post, type_crawl, param_scroll_down=False)
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\crawl_cmt.py", line 138, in send_request
+    browser.get(link_cate)
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 455, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 442, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 294, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 316, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\request.py", line 78, in request
+    return self.request_encode_body(
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\packages\six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Python\Python39\lib\http\client.py", line 1377, in getresponse
+    response.begin()
+  File "C:\Python\Python39\lib\http\client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python\Python39\lib\http\client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2022-11-10 14:42:26,588 - ERROR - {'message': 'exception when get comment', 'link_post': 'https://tuoitre.vn/nha-van-phap-marc-levy-xuc-dong-khi-xem-kich-moi-dieu-ta-chua-noi-20221108041647732.htm'}
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Python\Python39\lib\http\client.py", line 1377, in getresponse
+    response.begin()
+  File "C:\Python\Python39\lib\http\client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python\Python39\lib\http\client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\crawl_cmt.py", line 88, in crawl_in_post
+    website = send_request(link_post, type_crawl, param_scroll_down=False)
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\crawl_cmt.py", line 138, in send_request
+    browser.get(link_cate)
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 455, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 442, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 294, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 316, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\request.py", line 78, in request
+    return self.request_encode_body(
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\packages\six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Python\Python39\lib\http\client.py", line 1377, in getresponse
+    response.begin()
+  File "C:\Python\Python39\lib\http\client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python\Python39\lib\http\client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2022-11-10 14:42:26,588 - ERROR - {'message': 'exception when get comment', 'link_post': 'https://tuoitre.vn/nha-van-phap-marc-levy-xuc-dong-khi-xem-kich-moi-dieu-ta-chua-noi-20221108041647732.htm'}
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Python\Python39\lib\http\client.py", line 1377, in getresponse
+    response.begin()
+  File "C:\Python\Python39\lib\http\client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python\Python39\lib\http\client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\crawl_cmt.py", line 88, in crawl_in_post
+    website = send_request(link_post, type_crawl, param_scroll_down=False)
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\crawl_cmt.py", line 138, in send_request
+    browser.get(link_cate)
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 455, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 442, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 294, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 316, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\request.py", line 78, in request
+    return self.request_encode_body(
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\packages\six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\Admin\Documents\schedule_crawl_comment\venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Python\Python39\lib\http\client.py", line 1377, in getresponse
+    response.begin()
+  File "C:\Python\Python39\lib\http\client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python\Python39\lib\http\client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))

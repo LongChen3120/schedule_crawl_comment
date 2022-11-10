@@ -21,9 +21,9 @@ class My_thread(threading.Thread):
 def main_handler(queue_cate, config_site, queue_cate_err, queue_cate_save):
     while queue_cate.empty() == False:  
         link_cate = queue_cate.get()
-        logging.info(f"{threading.current_thread().name} got url: {link_cate}")
+        # logging.info(f"{threading.current_thread().name} got url: {link_cate}")
         crawl_cmt.crawl_out_post(link_cate, config_site, queue_cate_err)
-        logging.info(f"{threading.current_thread().name} finished crawl out post url: {link_cate}")
+        # logging.info(f"{threading.current_thread().name} finished crawl out post url: {link_cate}")
 
     while queue_cate_err.empty() == False:
         cate_err = queue_cate_err.get()
