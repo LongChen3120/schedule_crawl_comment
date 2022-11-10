@@ -36,7 +36,6 @@ def crawl_out_post(link_cate, config, queue_cate_err):
                         if link_post:
                             link_post = make_full_link(config['website'], link_post)
                             check_link_post = True
-                            # logging.info({"link_cate":link_cate, "link":link_post[0], "cmt":comment[0]})
                             list_data.append({"type_doc":1, "datetime": datetime.datetime.now(), "resourceUrl":link_cate, "url":link_post[0], "comment":comment[0] if len(comment) > 0 else "", "type":6})
                             break
                 except:
@@ -55,7 +54,6 @@ def crawl_out_post(link_cate, config, queue_cate_err):
                     if link_post:
                         link_post = make_full_link(config['website'], link_post)
                         check_link_post = True
-                        # logging.info({"link_cate":link_cate, "link":link_post[0], "cmt":comment[0] if len(comment) > 0 else ""})
                         list_data.append({"type_doc":1, "datetime": datetime.datetime.now(), "resourceUrl":link_cate, "url":link_post[0], "comment":comment[0] if len(comment) > 0 else "", "type":6})
                         break
         except Exception as e:
@@ -65,7 +63,7 @@ def crawl_out_post(link_cate, config, queue_cate_err):
             website.close()
     list_data = check_replace_link(list_data)
     if len(list_data) > 0:
-        query.insert_col_temp_db(col_temp_db, list_data)
+        query.insert_col_temp_db(col_toppaper, list_data)
         return list_data
     else:
         logging.info(f"not found data, url: {link_cate}")
@@ -110,7 +108,6 @@ def crawl_in_post(doc, queue_post_err):
                     break
                 except:
                     comment = doc['comment']
-                    # queue_post_err.put(doc)
                     logging.exception({"message: exception when get comment in api": api, 
                                     "status_code":res.status_code,
                                     "link_post": link_post
