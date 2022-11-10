@@ -78,7 +78,7 @@ def check_time(col_temp_db, col_toppaper, list_doc):
         elif (datetime.datetime.now() - doc['datetime']).days == 2:
             doc['type_doc'] = 3
             # query.update_col(col_temp_db, doc)
-        elif (datetime.datetime.now() - doc['datetime']).days == 3:
+        else:
             del doc['type_doc']
             list_doc_over_time.append(doc)
     query.update_col(col_temp_db, list_doc)
