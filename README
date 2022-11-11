@@ -24,5 +24,10 @@
 
 
 ## type param:
+<<<<<<< HEAD
 + 1: giá trị param là id post
 + 2: giá trị param là một trong các giá trị trong values
+=======
++ 1: nhận data từ id post
++ 2: nhận data tuỳ từng link cate
+>>>>>>> e6bba503de129027bc5bc97be5aaff69cf846f1e
