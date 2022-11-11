@@ -38,7 +38,7 @@ def main_handler(queue_cate, config_site):
 
 
 def main():
-    start_time = time.time()
+    # start_time = time.time()
 
     col_config, col_temp_db, col_toppaper = query.connect_DB()
     configs = col_config.find({})
@@ -65,4 +65,4 @@ def main():
         for thread in list_thread:
             thread.join()
 
-    print("done ! \ntime: ",(time.time() - start_time)) 
+    # print("done ! \ntime: ",(time.time() - start_time)) 
