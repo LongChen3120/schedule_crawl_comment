@@ -21,15 +21,11 @@ class My_thread(threading.Thread):
 def main_handler(queue_cate, config_site, queue_cate_err, queue_cate_save):
     while queue_cate.empty() == False:  
         link_cate = queue_cate.get()
-        # logging.info(f"{threading.current_thread().name} got url: {link_cate}")
         crawl_cmt.crawl_out_post(link_cate, config_site, queue_cate_err)
-        # logging.info(f"{threading.current_thread().name} finished crawl out post url: {link_cate}")
 
     while queue_cate_err.empty() == False:
         cate_err = queue_cate_err.get()
-        logging.info(f"{threading.current_thread().name} recrawl url: {cate_err}")
         crawl_cmt.crawl_out_post(cate_err, config_site, queue_cate_save)
-        logging.info(f"{threading.current_thread().name} finished recrawl out post url: {cate_err}")
 
     with open('./log/cate_error.txt', 'w', encoding='utf-8') as write_cate_err:
         while queue_cate_save.empty() == False:
@@ -39,8 +35,6 @@ def main_handler(queue_cate, config_site, queue_cate_err, queue_cate_save):
 
 
 def main():
-    # start_time = time.time()
-
     col_config, col_temp_db, col_toppaper = query.connect_DB()
     configs = col_config.find({})
 
@@ -64,5 +58,3 @@ def main():
 
         for thread in list_thread:
             thread.join()
-
-    # print("done ! \ntime: ",(time.time() - start_time)) 

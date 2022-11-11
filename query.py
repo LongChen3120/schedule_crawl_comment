@@ -1,6 +1,5 @@
 import pymongo
 import json
-import logging
 
 # local mongodb://localhost:27017
 # a huy mongodb://192.168.19.168:27017
@@ -9,8 +8,6 @@ def connect_DB():
     db = client["PaPer"]
     col_temp_db = db["temp_collection"]
     col_toppaper = db["toppaper"]
-    # col_1_day_before = db["1_day_before"]
-    # col_2_day_before = db["2_day_before"]
     col_config = db["config_crawl_cmt"]
 
     return col_config, col_temp_db, col_toppaper
@@ -54,8 +51,8 @@ def update_col(col, list_doc):
         vals = {"$set":doc}
         try:
             col.update_many(filter, vals)
-        except Exception as e:
-            logging.info("exception when update docs,", e)
+        except:
+            pass
 
 
 def delete_from_col(col, list_data):

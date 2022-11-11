@@ -53,12 +53,10 @@ def crawl_out_post(link_cate, config, queue_cate_err):
                     link_post = check_regex(config['link_post']['detect']['re'], [str(obj.get_attribute('innerHTML'))])
                     if link_post:
                         link_post = make_full_link(config['website'], link_post)
-                        check_link_post = True
                         list_data.append({"type_doc":1, "datetime": datetime.datetime.now(), "resourceUrl":link_cate, "url":link_post[0], "comment":comment[0] if len(comment) > 0 else "", "type":6})
                         break
-        except Exception as e:
+        except: # xảy ra khi time_out hoặc page không có data
             queue_cate_err.put(link_cate)
-            logging.exception(f"except when crawl out post. \nlink cate = {link_cate}\n {e}", exc_info=True)
         finally:
             website.close()
     list_data = check_replace_link(list_data)
@@ -66,11 +64,8 @@ def crawl_out_post(link_cate, config, queue_cate_err):
         query.insert_col(col_temp_db, list_data)
         return list_data
     else:
-        logging.info(f"not found data, url: {link_cate}")
-        return{
-            "status_code":404,
-            "message":"not found data"
-        }
+        pass
+        # logging.info(f"not found data, url: {link_cate}")
 
 
 def crawl_in_post(doc, queue_post_err):
@@ -96,31 +91,20 @@ def crawl_in_post(doc, queue_post_err):
                 try:
                     res = send_request(api, 1, param_scroll_down= False)
                     data = detect_responseType(config_site['comment_in_post']['responseType'], res)
-                except:
-                    logging.exception({"message: exception when call api": api, 
-                                    "status_code":res.status_code,
-                                    "link_post": link_post
-                                    }, exc_info=True
-                                )
-                try:
-                    comment = check_regex(config_site['comment_in_post']['detect']['re'], [str(data)])[0]
-                    comment = re.findall(r'\d+', comment)[0]
-                    break
-                except:
-                    comment = doc['comment']
-                    logging.exception({"message: exception when get comment in api": api, 
-                                    "status_code":res.status_code,
-                                    "link_post": link_post
-                                    }, exc_info=True
-                                )
+                    try:
+                        comment = check_regex(config_site['comment_in_post']['detect']['re'], [str(data)])[0]
+                        comment = re.findall(r'\d+', comment)[0]
+                        break
+                    except: # xảy ra khi res.status_code() = 200 nhưng token hết hạn
+                        comment = doc['comment']
+                except: # xảy ra khi res.status_code() = 403
+                    pass
+
                 
-    except Exception as e:
+    except:
         queue_post_err.put(doc)
         comment = "0"
-        logging.exception({"message":"exception when get comment", 
-                                "link_post": link_post
-                                }, exc_info=True
-                            )
+
     return comment
 
 
@@ -128,7 +112,6 @@ def send_request(link_cate, type_crawl, param_scroll_down):
     if type_crawl == 1:
         res = requests.get(link_cate, headers=header, timeout=10)
         return res
-
     elif type_crawl == 2:
         options = Options()
         options.add_experimental_option('excludeSwitches', ['enable-logging'])
@@ -138,6 +121,7 @@ def send_request(link_cate, type_crawl, param_scroll_down):
         browser.get(link_cate)
         scroll_down(browser, param_scroll_down)
         return browser
+
 
 def get_id_post(link_post):
     id_post = re.findall(r'\d+', link_post)[-1]
@@ -151,7 +135,6 @@ def check_config(url):
         domain = re.split('/|\\.', config['website'])[2]
         if domain in url:
             return config
-
 
 
 def crawl_link_cate(config_site):
@@ -255,7 +238,3 @@ def scroll_down(browser, param_scroll_down):
             new_height = browser.execute_script("return document.body.scrollHeight")
     else:
         pass
-
-# crawl_out_post("https://linkhay.com/link/stream/new", config)
-# cmt = crawl_in_post("https://linkhay.com/link/5783746/shopee-gi-gi-gi-gi-cai-gi-cung-co", "")
-# print(cmt)

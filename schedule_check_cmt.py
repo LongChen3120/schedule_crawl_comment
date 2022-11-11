@@ -31,13 +31,13 @@ class My_thread(threading.Thread):
 
         while self.queue_post_err.empty() == False:
             doc = self.queue_post_err.get()
-            logging.info(f"{threading.current_thread().name} reupdate link {doc['url']}")
+            # logging.info(f"{threading.current_thread().name} reupdate link {doc['url']}")
             comment = crawl_cmt.crawl_in_post(doc, self.queue_post_save)
             if comment:
                 doc['comment'] = comment
                 doc['last_check'] = datetime.datetime.now()
                 self.queue_update.put(doc)
-                logging.info(f"{threading.current_thread().name} finish reupdate comment link: {doc['url']}")
+                # logging.info(f"{threading.current_thread().name} finish reupdate comment link: {doc['url']}")
 
 
 
