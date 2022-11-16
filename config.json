@@ -37,7 +37,7 @@
             "responseType": 2
         },
         "api": {
-            "url": "https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id={param_0}",
+            "url": "https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=param_0",
             "time_sleep":2,
             "params": [
                 {
@@ -182,7 +182,7 @@
             }
         },
         "api": {
-            "url": "https://comment.vietnamnet.vn/api/Comment/Gets?objectId={param_0}&websiteId=000003",
+            "url": "https://comment.vietnamnet.vn/api/Comment/Gets?objectId=param_0&websiteId=000003",
             "time_sleep":0,
             "params": [
                 {

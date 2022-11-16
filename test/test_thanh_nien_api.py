@@ -143,7 +143,10 @@ class My_thread(threading.Thread):
         self.queue_post_save = queue_post_save
 
     def run(self):
+        count = 0
         while self.queue_doc.empty() == False:
+            count += 1
+            time.sleep(10)
             doc = self.queue_doc.get()
             logging.info(f"{threading.current_thread().name} update link: {doc['url']}")
             comment = crawl_in_post(doc, self.queue_post_err)
@@ -152,16 +155,9 @@ class My_thread(threading.Thread):
                 doc['last_check'] = datetime.datetime.now()
                 self.queue_update.put(doc)
             logging.info(f"{threading.current_thread().name} finish update comment link: {doc['url']}")
-
-        while self.queue_post_err.empty() == False:
-            doc = self.queue_post_err.get()
-            # logging.info(f"{threading.current_thread().name} reupdate link {doc['url']}")
-            comment = crawl_in_post(doc, self.queue_post_save)
-            if comment:
-                doc['comment'] = comment
-                doc['last_check'] = datetime.datetime.now()
-                self.queue_update.put(doc)
-                # logging.info(f"{threading.current_thread().name} finish reupdate comment link: {doc['url']}")
+            if count == 5:
+                time.sleep(180)
+                count = 0
 
 
 
@@ -176,7 +172,7 @@ def get_data(col, type_doc):
 
     list_doc_today = []
     for type in type_doc:
-        for doc in col.find({"resourceUrl":{"$regex":"https://thanhnien"},"type" : 6, "type_doc":type}):
+        for doc in col.find({"resourceUrl":{"$regex":"https://thanhnien"},"type" : 6, "type_doc":type}).limit(20):
             list_doc_today.append(doc)
     return list_doc_today
 

@@ -21,6 +21,7 @@ class My_thread(threading.Thread):
 def main_handler(queue_cate, config_site, queue_cate_err, queue_cate_save):
     while queue_cate.empty() == False:  
         link_cate = queue_cate.get()
+        logging.info(f"crawl: {link_cate}")
         crawl_cmt.crawl_out_post(link_cate, config_site, queue_cate_err)
 
     while queue_cate_err.empty() == False:
@@ -50,7 +51,7 @@ def main():
         for link_cate in list_link_cate: 
             queue_cate.put(link_cate)
 
-        for i in range(1): #5
+        for i in range(3): #5
             thread = My_thread(queue_cate, config, queue_cate_err, queue_cate_save)
             list_thread.append(thread)
             thread.daemon

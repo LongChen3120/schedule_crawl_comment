@@ -45,30 +45,17 @@ class My_thread(threading.Thread):
 def detect_time():
     time_now = datetime.datetime.now()
     col_config, col_temp_db, col_toppaper = query.connect_DB()
-    # if datetime.datetime.now().time().hour % 24 == 0:
-    #     list_doc = query.get_data(col_temp_db, [1,2,3])
-    #     check_time(col_temp_db, col_toppaper, list_doc)
-    #     create_thread(col_temp_db, list_doc)
-    #     asyncio.gather()
-    #     main_crawl.main()
-
-    # elif datetime.datetime.now().time().hour % 6 == 0:
-    #     list_doc = query.get_data(col_temp_db, [1, 2])
-    #     check_time(col_temp_db, col_toppaper, list_doc)
-    #     create_thread(col_temp_db, list_doc)
-    #     main_crawl.main()
-
-    # elif datetime.datetime.now().time().hour % 2 == 0:
-    #     list_doc = query.get_data(col_temp_db, [1])
-    #     check_time(col_temp_db, col_toppaper, list_doc)
-    #     create_thread(col_temp_db, list_doc)
-        # main_crawl.main()
-
-    # else:
-    main_crawl.main()
-    list_doc = query.get_data(col_temp_db, [1,2,3], time_now)
+    # main_crawl.main()
+    if datetime.datetime.now().time().hour % 24 == 0:
+        list_doc = query.get_data(col_temp_db, [1,2,3], time_now)
+    elif datetime.datetime.now().time().hour % 6 == 0:
+        list_doc = query.get_data(col_temp_db, [1, 2], time_now)
+    elif datetime.datetime.now().time().hour % 2 == 0:
+        list_doc = query.get_data(col_temp_db, [1], time_now)
+    else:
+        list_doc = query.get_data(col_temp_db, [1], time_now)
     check_time(col_temp_db, col_toppaper, col_temp_db.find({}))
-    create_thread(col_temp_db, list_doc)
+    # create_thread(col_temp_db, list_doc)
 
 
 
@@ -96,6 +83,7 @@ def check_time(col_temp_db, col_toppaper, list_doc):
     if len(list_del) > 0:
         query.delete_from_col(col_temp_db, list_del)
     if len(list_doc_over_time) > 0:
+        query.delete_from_col(col_temp_db, list_doc_over_time)
         query.insert_col(col_toppaper, list_doc_over_time)
 
 

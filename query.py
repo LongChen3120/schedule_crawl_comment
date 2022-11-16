@@ -7,7 +7,7 @@ import datetime
 def connect_DB():
     client = pymongo.MongoClient("mongodb://localhost:27017")
     db = client["PaPer"]
-    col_temp_db = db["demo"]
+    col_temp_db = db["temp_collection"]
     col_toppaper = db["toppaper"]
     col_config = db["config_crawl_cmt"]
 
