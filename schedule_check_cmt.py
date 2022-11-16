@@ -21,7 +21,7 @@ class My_thread(threading.Thread):
     def run(self):
         while self.queue_doc.empty() == False:
             doc = self.queue_doc.get()
-            # logging.info(f"{threading.current_thread().name} update link: {doc['url']}")
+            logging.info(f"{threading.current_thread().name} update link: {doc['url']}")
             comment = crawl_cmt.crawl_in_post(doc, self.queue_post_err)
             if comment:
                 doc['comment'] = comment
@@ -31,7 +31,7 @@ class My_thread(threading.Thread):
 
         while self.queue_post_err.empty() == False:
             doc = self.queue_post_err.get()
-            # logging.info(f"{threading.current_thread().name} reupdate link {doc['url']}")
+            logging.info(f"{threading.current_thread().name} reupdate link {doc['url']}")
             comment = crawl_cmt.crawl_in_post(doc, self.queue_post_save)
             if comment:
                 doc['comment'] = comment
@@ -66,26 +66,35 @@ def detect_time():
 
     # else:
     main_crawl.main()
-    # list_doc = query.get_data(col_temp_db, [1,2,3], time_now)
-    # print(len(list_doc))
-    # check_time(col_temp_db, col_toppaper, list_doc)
-    # create_thread(col_temp_db, list_doc)
+    list_doc = query.get_data(col_temp_db, [1,2,3], time_now)
+    check_time(col_temp_db, col_toppaper, col_temp_db.find({}))
+    create_thread(col_temp_db, list_doc)
 
 
 
 def check_time(col_temp_db, col_toppaper, list_doc):
+    list_doc_update = []
     list_doc_over_time = []
+    list_del = []
     for doc in list_doc:
         if (datetime.datetime.now() - doc['datetime']).days == 1:
             doc['type_doc'] = 2
+            list_doc_update.append(doc)
             # query.update_col(col_temp_db, doc)
         elif (datetime.datetime.now() - doc['datetime']).days == 2:
             doc['type_doc'] = 3
+            list_doc_update.append(doc)
             # query.update_col(col_temp_db, doc)
-        else:
-            del doc['type_doc']
-            list_doc_over_time.append(doc)
-    query.update_col(col_temp_db, list_doc)
+        elif (datetime.datetime.now() - doc['datetime']).days > 2:
+            if doc['comment'] == "0":
+                list_del.append(doc)
+            else:
+                del doc['type_doc']
+                del doc['_id']
+                list_doc_over_time.append(doc)
+    query.update_type_doc(col_temp_db, list_doc_update)
+    if len(list_del) > 0:
+        query.delete_from_col(col_temp_db, list_del)
     if len(list_doc_over_time) > 0:
         query.insert_col(col_toppaper, list_doc_over_time)
 
@@ -99,7 +108,7 @@ def create_thread(col_temp_db, list_doc):
     for doc in list_doc:
         queue_doc.put(doc)
 
-    for i in range(1): #5
+    for i in range(3): #5
         thread = My_thread(queue_doc, queue_update, queue_post_err, queue_post_save)
         thread.daemon
         thread.start()

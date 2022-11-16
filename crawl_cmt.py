@@ -88,6 +88,7 @@ def crawl_in_post(doc, queue_post_err):
 
         elif type_crawl == 3:
             list_api = detect_type_param(link_post, config_site['api'])
+            time.sleep(config_site['api']['time_sleep'])
             for api in list_api:
                 try:
                     res = send_request(api, 1, param_scroll_down= False)
@@ -98,8 +99,10 @@ def crawl_in_post(doc, queue_post_err):
                         break
                     except: # xảy ra khi res.status_code() = 200 nhưng token hết hạn
                         comment = doc['comment']
+                        logging.info(f"412, api: {api}")
                 except: # xảy ra khi res.status_code() = 403
-                    pass
+                    logging.info(f"res status:{res.status_code}, api: {api}")
+                    comment = doc['comment']
 
                 
     except:
