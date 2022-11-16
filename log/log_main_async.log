@@ -1,3 +1,31 @@
-2022-11-04 10:37:10,752 - INFO - 
+2022-11-16 08:46:40,920 - INFO - 
 
 _____________________________new_log_____________________________
+2022-11-16 08:46:41,054 - INFO - Thread-1 update link: https://thanhnien.vn/xem-nhanh-20h-ngay-1411-trum-giang-ho-dat-ma-ngua-quen-duong-cu-pho-chanh-an-bi-kham-nha-rieng-post1521399.html
+2022-11-16 08:46:46,311 - INFO - 412, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521399
+2022-11-16 08:46:46,312 - INFO - Thread-1 finish update comment link: https://thanhnien.vn/xem-nhanh-20h-ngay-1411-trum-giang-ho-dat-ma-ngua-quen-duong-cu-pho-chanh-an-bi-kham-nha-rieng-post1521399.html
+2022-11-16 08:46:46,312 - INFO - Thread-1 update link: https://thanhnien.vn/quang-ngai-thap-sang-uoc-mo-hoan-luong-cho-pham-nhan-tre-post1521419.html
+2022-11-16 08:46:51,463 - INFO - 412, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521419
+2022-11-16 08:46:51,464 - INFO - Thread-1 finish update comment link: https://thanhnien.vn/quang-ngai-thap-sang-uoc-mo-hoan-luong-cho-pham-nhan-tre-post1521419.html
+2022-11-16 08:46:51,464 - INFO - Thread-1 update link: https://thanhnien.vn/trom-leo-cot-dien-dot-nhap-roi-vo-vet-tai-san-trong-tiem-chup-anh-post1521409.html
+2022-11-16 08:46:56,595 - INFO - 412, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521409
+2022-11-16 08:46:56,597 - INFO - Thread-1 finish update comment link: https://thanhnien.vn/trom-leo-cot-dien-dot-nhap-roi-vo-vet-tai-san-trong-tiem-chup-anh-post1521409.html
+2022-11-16 08:46:56,597 - INFO - Thread-1 update link: https://thanhnien.vn/cao-toc-tphcm-trung-luong-ket-xe-3-km-vi-tai-nan-tham-khoc-post1521401.html
+2022-11-16 08:47:01,735 - INFO - ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521401
+2022-11-16 08:47:01,735 - INFO - Thread-1 finish update comment link: https://thanhnien.vn/cao-toc-tphcm-trung-luong-ket-xe-3-km-vi-tai-nan-tham-khoc-post1521401.html
+2022-11-16 08:47:01,735 - INFO - Thread-1 update link: https://thanhnien.vn/buon-ma-tuy-vi-bi-anh-em-xa-hoi-di-no-lanh-an-16-nam-tu-post1521387.html
+2022-11-16 08:47:06,899 - INFO - 412, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521387
+2022-11-16 08:47:06,899 - INFO - Thread-1 finish update comment link: https://thanhnien.vn/buon-ma-tuy-vi-bi-anh-em-xa-hoi-di-no-lanh-an-16-nam-tu-post1521387.html
+2022-11-16 08:47:06,899 - INFO - Thread-1 update link: https://thanhnien.vn/toan-canh-cuu-bi-thu-dong-nai-nhan-hoi-lo-nhung-chuyen-tham-bua-com-bac-ti-post1521054.html
+2022-11-16 08:47:12,047 - INFO - ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521054
+2022-11-16 08:47:12,047 - INFO - Thread-1 finish update comment link: https://thanhnien.vn/toan-canh-cuu-bi-thu-dong-nai-nhan-hoi-lo-nhung-chuyen-tham-bua-com-bac-ti-post1521054.html
+2022-11-16 08:47:12,047 - INFO - Thread-1 update link: https://thanhnien.vn/cuu-chu-tich-dong-nai-14-lan-nhan-hoi-lo-luc-nghi-huu-van-duoc-tang-qua-post1521059.html
+2022-11-16 08:47:17,191 - INFO - 412, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521059
+2022-11-16 08:47:17,192 - INFO - Thread-1 finish update comment link: https://thanhnien.vn/cuu-chu-tich-dong-nai-14-lan-nhan-hoi-lo-luc-nghi-huu-van-duoc-tang-qua-post1521059.html
+2022-11-16 08:47:17,192 - INFO - Thread-1 update link: https://thanhnien.vn/ba-nguyen-thi-thanh-nhan-giau-co-co-nao-diem-mat-khoi-tai-san-dang-bi-ke-bien-post1521052.html
+2022-11-16 08:47:22,441 - INFO - ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521052
+2022-11-16 08:47:22,441 - INFO - Thread-1 finish update comment link: https://thanhnien.vn/ba-nguyen-thi-thanh-nhan-giau-co-co-nao-diem-mat-khoi-tai-san-dang-bi-ke-bien-post1521052.html
+2022-11-16 08:47:22,441 - INFO - Thread-1 update link: https://thanhnien.vn/ong-phan-huy-anh-vu-nhan-hoi-lo-gan-15-ti-nguy-trang-trong-nhung-tui-tra-post1521037.html
+2022-11-16 08:47:27,580 - INFO - ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521037
+2022-11-16 08:47:27,581 - INFO - Thread-1 finish update comment link: https://thanhnien.vn/ong-phan-huy-anh-vu-nhan-hoi-lo-gan-15-ti-nguy-trang-trong-nhung-tui-tra-post1521037.html
+2022-11-16 08:47:27,581 - INFO - Thread-1 update link: https://thanhnien.vn/dien-vien-kha-nhu-ap-luc-khi-lam-vo-tran-thanh-post1520314.html

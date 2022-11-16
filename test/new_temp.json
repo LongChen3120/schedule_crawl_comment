@@ -1,0 +1,191 @@
+{
+    "configDetail": {
+        "avatar": "//meta[@property=\"og:image\"]/@content",
+        "content": [
+            {
+                "detect": "//*[@class = 'image-avatar m-30-b'] | //*[@data-role = 'content']",
+                "remove": [
+                    {
+                        "type": 1,
+                        "value": "//*[@type = 'RelatedNewsBox'] | //*[@class='boxembedtinlienquan']"
+                    },
+                    {
+                        "type": 1,
+                        "value": "//*[@data-role = 'content']/*[1]"
+                    }
+                ]
+            }
+        ],
+        "images": [
+            {
+                "detect": "//*[@data-role = 'content']/descendant::img/@src",
+                "valueType": 4
+            },
+            {
+                "detect": "//*[@data-role = 'content']/descendant::img/@data-src",
+                "valueType": 4
+            }
+        ],
+        "meta": {
+            "attribute": [
+                "name",
+                "content",
+                "property",
+                "http-equiv"
+            ],
+            "detect": {
+                "xpath": "//meta"
+            },
+            "valueType": 2
+        },
+        "publishDate": [],
+        "sapo": [
+            {
+                "detect": "//*[@data-role = 'content']/*[1]//text()"
+            },
+            {
+                "detect": "//meta[@property=\"og:description\"]/@content"
+            }
+        ],
+        "title": [
+            {
+                "detect": "//h1[1]//text()"
+            },
+            {
+                "detect": "//meta[@property=\"og:title\"]/@content"
+            }
+        ]
+    },
+    "id": 91,
+    "linkDetailPaper_1": {
+        "detect": {
+            "re": "href=\"(\\S+\\d+.htm)\"",
+            "type": 3,
+            "xpath": "//a[@href]"
+        },
+        "responseType": 1,
+        "valueType": 2
+    },
+    "paging_1": [
+        {
+            "type": 3,
+            "value": {
+                "detect": {
+                    "type": 1,
+                    "xpath": "//*[@class = \"clearfix menu_w\"]/ul/li[not(@class)]/a/@href"
+                },
+                "responseType": 1,
+                "valueType": 2
+            }
+        }
+    ],
+    "topEvent_1": [
+        {
+            "detect": {
+                "type": 1,
+                "xpath": "//*[@class = \"ovh two f_l\"]//ul//a/@href"
+            },
+            "eventType": 1,
+            "nameEvent": {
+                "detect": {
+                    "type": 1,
+                    "xpath": "//*[@class = \"tab f_l\"]/text()"
+                },
+                "sourceType": 1,
+                "valueType": 1
+            },
+            "topType": 3,
+            "valueType": 2
+        },
+        {
+            "detect": {
+                "type": 1,
+                "xpath": "//*[@class = \"link f_r\"]/@href"
+            },
+            "eventType": 2,
+            "nameEvent": {
+                "detect": {
+                    "type": 1,
+                    "xpath": "//*[@class = \"link f_r\"]/@href"
+                },
+                "sourceType": 1,
+                "valueType": 1
+            },
+            "topType": 3,
+            "valueType": 2
+        }
+    ],
+    "topEvent_2": [
+        {
+            "detect": {
+                "type": 1,
+                "xpath": "//*[@class = \"ovh chuyende\"]/a/@href"
+            },
+            "eventType": 2,
+            "nameEvent": {
+                "detect": {
+                    "type": 1,
+                    "xpath": "//*[@class = \"ovh nb_list\"]//a/text()"
+                },
+                "sourceType": 0,
+                "valueType": 1
+            },
+            "topType": 3,
+            "valueType": 2
+        }
+    ],
+    "topPaper_1": {
+        "detect": {
+            "re": "href=\"(/\\S+\\d+.htm)\"",
+            "type": 3,
+            "xpath": "//*[contains(@class, \"ovh nb_home\")]/descendant::a[@href]"
+        },
+        "responseType": 1,
+        "topType": 1,
+        "valueType": 2
+    },
+    "topPaper_2": {
+        "detect": {
+            "type": 1,
+            "xpath": "//*[@class = \"ovh nb_home nb_list\"]/child::*[not(@class = \"ovh bar\")]//a/@href"
+        },
+        "responseType": 1,
+        "topType": 2,
+        "valueType": 2
+    },
+    "topPaper_3": {
+        "detect": {
+            "type": 1,
+            "xpath": "//*[@class = \"list-video\" or @id= \"category-video\"]/descendant::a[@class = \"img\"]/@href"
+        },
+        "responseType": 1,
+        "topType": 5,
+        "valueType": 2
+    },
+    "url": [
+        {
+            "isPaging": false,
+            "linkDetailPaper": 1,
+            "paging": 1,
+            "topEvent_": 1,
+            "topPaper_": 1,
+            "value": "https://thethaovanhoa.vn/"
+        },
+        {
+            "isPaging": true,
+            "linkDetailPaper": 1,
+            "paging": 1,
+            "topEvent_": 2,
+            "topPaper_": 2,
+            "value": "https://thethaovanhoa.vn/"
+        },
+        {
+            "isPaging": false,
+            "linkDetailPaper": 1,
+            "paging": 1,
+            "topPaper_": 3,
+            "value": "https://video.thethaovanhoa.vn/"
+        }
+    ],
+    "website": "https://thethaovanhoa.vn/"
+}

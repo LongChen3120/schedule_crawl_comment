@@ -1,13 +1,12 @@
 import pymongo
 import json
-import datetime
 
 # local mongodb://localhost:27017
 # a huy mongodb://192.168.19.168:27017
 def connect_DB():
     client = pymongo.MongoClient("mongodb://localhost:27017")
     db = client["PaPer"]
-    col_temp_db = db["demo"]
+    col_temp_db = db["temp_collection"]
     col_toppaper = db["toppaper"]
     col_config = db["config_crawl_cmt"]
 
@@ -18,16 +17,21 @@ def find_config(mycol_config):
     my_config = mycol_config.find({})
     return my_config
 
-def get_data(col, type_doc, time_now):
+
+def get_data(col, type_doc):
+    # col_config, col_temp_db, col_toppaper = connect_DB()
+    # list_doc_today = []
+
+    # list_config = col_config.find({})
+    # for config in list_config:
+    #     for doc in col.find({"resourceUrl":{"$regex":config['website']},"type" : 6, "type_doc":type_doc}).limit(3):
+    #         list_doc_today.append(doc)
+
     list_doc_today = []
     for type in type_doc:
-        for doc in col.find({"type" : 6, "type_doc":type, "last_check": {
-        "$lt": time_now
-    }}):
+        for doc in col.find({"type" : 6, "type_doc":type}):
             list_doc_today.append(doc)
     return list_doc_today
-
-
 
 
 def insert_col(col, list_data):
@@ -35,22 +39,16 @@ def insert_col(col, list_data):
 
 def update_col(col, list_doc):
     for doc in list_doc:
-        if col.find_one({'url':doc['url']}):
+        try:
+            del doc['_id']
+        except:
             pass
-        else:
-            list_doc.remove(doc)
-            try:
-                del doc['_id']
-            except:
-                pass
-            doc['last_check'] = datetime.datetime.now()
-            filter = {"url": doc['url']}
-            vals = {"$set":doc}
-            try:
-                col.update_many(filter, vals)
-            except:
-                pass
-    insert_col(col, list_doc)
+        filter = {"url": doc['url']}
+        vals = {"$set":doc}
+        try:
+            col.update_many(filter, vals)
+        except:
+            pass
 
 
 def delete_from_col(col, list_data):

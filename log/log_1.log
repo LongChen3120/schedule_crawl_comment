@@ -1,0 +1,470 @@
+2022-11-14 22:12:25,585 - INFO - 
+
+_____________________________new_log_____________________________
+2022-11-14 22:12:25,809 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521399'}
+2022-11-14 22:12:25,940 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521419
+2022-11-14 22:12:26,093 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521409'}
+2022-11-14 22:12:26,219 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521401'}
+2022-11-14 22:12:26,393 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521387
+2022-11-14 22:12:26,550 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521054'}
+2022-11-14 22:12:26,705 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521059
+2022-11-14 22:12:26,848 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521052'}
+2022-11-14 22:12:26,982 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521037'}
+2022-11-14 22:12:27,124 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520314
+2022-11-14 22:12:27,256 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520698
+2022-11-14 22:12:27,404 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520015
+2022-11-14 22:12:27,533 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519996
+2022-11-14 22:12:27,680 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520290'}
+2022-11-14 22:12:27,813 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520782
+2022-11-14 22:12:27,952 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520665
+2022-11-14 22:12:28,085 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1517843
+2022-11-14 22:12:28,248 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520377
+2022-11-14 22:12:28,417 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1518263
+2022-11-14 22:12:28,556 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1518103
+2022-11-14 22:12:28,731 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1517081
+2022-11-14 22:12:28,870 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521289'}
+2022-11-14 22:12:29,013 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521170
+2022-11-14 22:12:29,183 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521168'}
+2022-11-14 22:12:29,311 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521165
+2022-11-14 22:12:29,440 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520739
+2022-11-14 22:12:29,549 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521073'}
+2022-11-14 22:12:29,675 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521134
+2022-11-14 22:12:29,815 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521122
+2022-11-14 22:12:29,956 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1508082
+2022-11-14 22:12:30,108 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1504707
+2022-11-14 22:12:30,224 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1504271
+2022-11-14 22:12:30,388 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1504164
+2022-11-14 22:12:30,536 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521421'}
+2022-11-14 22:12:30,676 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521383'}
+2022-11-14 22:12:30,813 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521332'}
+2022-11-14 22:12:30,986 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521366'}
+2022-11-14 22:12:31,135 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521388'}
+2022-11-14 22:12:31,285 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521413'}
+2022-11-14 22:12:31,426 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521311
+2022-11-14 22:12:31,592 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521286
+2022-11-14 22:12:31,766 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521273
+2022-11-14 22:12:31,905 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521269
+2022-11-14 22:12:32,042 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521250'}
+2022-11-14 22:12:32,189 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521080'}
+2022-11-14 22:12:32,359 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521216
+2022-11-14 22:12:32,527 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521217
+2022-11-14 22:12:32,664 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521226'}
+2022-11-14 22:12:32,804 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521214'}
+2022-11-14 22:12:32,959 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521140
+2022-11-14 22:12:33,122 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521187
+2022-11-14 22:12:33,246 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521193
+2022-11-14 22:12:33,402 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521175
+2022-11-14 22:12:33,546 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521174
+2022-11-14 22:12:33,665 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520861'}
+2022-11-14 22:12:33,802 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521395'}
+2022-11-14 22:12:33,972 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521342
+2022-11-14 22:12:34,166 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521274'}
+2022-11-14 22:12:34,286 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1511723
+2022-11-14 22:12:34,450 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1518698
+2022-11-14 22:12:34,606 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1505461
+2022-11-14 22:12:34,743 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520998'}
+2022-11-14 22:12:34,887 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521080'}
+2022-11-14 22:12:35,041 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520825
+2022-11-14 22:12:35,190 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521235'}
+2022-11-14 22:12:35,383 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521108'}
+2022-11-14 22:12:35,526 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521100'}
+2022-11-14 22:12:35,669 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521145
+2022-11-14 22:12:35,806 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521088
+2022-11-14 22:12:35,947 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521085'}
+2022-11-14 22:12:36,091 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520941
+2022-11-14 22:12:36,280 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1518067
+2022-11-14 22:12:36,434 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1517819
+2022-11-14 22:12:36,584 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519497
+2022-11-14 22:12:36,714 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1514655
+2022-11-14 22:12:36,917 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1514612
+2022-11-14 22:12:37,053 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520996
+2022-11-14 22:12:37,209 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520820
+2022-11-14 22:12:37,342 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520830
+2022-11-14 22:12:37,478 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519736
+2022-11-14 22:12:37,633 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1518985
+2022-11-14 22:12:37,773 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1504390
+2022-11-14 22:12:37,886 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521428'}
+2022-11-14 22:12:38,044 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521416'}
+2022-11-14 22:12:38,189 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521417'}
+2022-11-14 22:12:38,317 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520506'}
+2022-11-14 22:12:38,428 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1515374'}
+2022-11-14 22:12:38,541 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521303'}
+2022-11-14 22:12:38,691 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521184'}
+2022-11-14 22:12:38,836 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1518659'}
+2022-11-14 22:12:38,983 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521138'}
+2022-11-14 22:12:39,109 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521339'}
+2022-11-14 22:12:39,224 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521163'}
+2022-11-14 22:12:39,367 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521171
+2022-11-14 22:12:39,528 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521169'}
+2022-11-14 22:12:39,663 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521263'}
+2022-11-14 22:12:39,784 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521156'}
+2022-11-14 22:12:39,912 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521418'}
+2022-11-14 22:12:40,079 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521398'}
+2022-11-14 22:12:40,247 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521354'}
+2022-11-14 22:12:40,403 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521343'}
+2022-11-14 22:12:40,567 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521150'}
+2022-11-14 22:12:40,752 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521405'}
+2022-11-14 22:12:40,892 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521256'}
+2022-11-14 22:12:41,042 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521173'}
+2022-11-14 22:12:41,216 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521278'}
+2022-11-14 22:12:41,356 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521391
+2022-11-14 22:12:41,492 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521352'}
+2022-11-14 22:12:41,660 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521281'}
+2022-11-14 22:12:41,800 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520938'}
+2022-11-14 22:12:41,960 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521293
+2022-11-14 22:12:42,126 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521279
+2022-11-14 22:12:42,244 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521277'}
+2022-11-14 22:12:42,400 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521210'}
+2022-11-14 22:12:42,579 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519599
+2022-11-14 22:12:42,723 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521371'}
+2022-11-14 22:12:42,860 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521248'}
+2022-11-14 22:12:42,984 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521394'}
+2022-11-14 22:12:43,143 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521345
+2022-11-14 22:12:43,291 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521200'}
+2022-11-14 22:12:43,443 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521209'}
+2022-11-14 22:12:43,570 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521172'}
+2022-11-14 22:12:43,737 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521064
+2022-11-14 22:12:43,877 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521400'}
+2022-11-14 22:12:44,028 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521420'}
+2022-11-14 22:12:44,185 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521372'}
+2022-11-14 22:12:44,330 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521380'}
+2022-11-14 22:12:44,511 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521236
+2022-11-14 22:12:44,640 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1471255
+2022-11-14 22:12:44,769 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1518266'}
+2022-11-14 22:12:44,923 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521094
+2022-11-14 22:12:45,069 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521308
+2022-11-14 22:12:45,207 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521189'}
+2022-11-14 22:12:45,341 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519634'}
+2022-11-14 22:12:45,453 - INFO - {'______api ok: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521076'}
+2022-11-14 22:12:45,603 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1516056
+2022-11-14 22:12:45,765 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1512709
+2022-11-14 22:12:45,897 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1512580
+2022-11-14 22:12:46,023 - INFO - token het han, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1511159
+2022-11-14 22:12:46,163 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521225
+2022-11-14 22:12:46,298 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521378
+2022-11-14 22:12:46,441 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521191
+2022-11-14 22:12:46,581 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521307
+2022-11-14 22:12:46,708 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520804
+2022-11-14 22:12:46,849 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520659
+2022-11-14 22:12:47,020 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520433
+2022-11-14 22:12:47,137 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520586
+2022-11-14 22:12:47,274 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521375
+2022-11-14 22:12:47,422 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521258
+2022-11-14 22:12:47,579 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520809
+2022-11-14 22:12:47,727 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521275
+2022-11-14 22:12:47,870 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521322
+2022-11-14 22:12:48,004 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520921
+2022-11-14 22:12:48,153 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521041
+2022-11-14 22:12:48,290 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521367
+2022-11-14 22:12:48,417 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521154
+2022-11-14 22:12:48,529 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521149
+2022-11-14 22:12:48,652 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521111
+2022-11-14 22:12:48,801 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521116
+2022-11-14 22:12:48,945 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521101
+2022-11-14 22:12:49,089 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521095
+2022-11-14 22:12:49,252 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521084
+2022-11-14 22:12:49,369 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521010
+2022-11-14 22:12:49,510 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520952
+2022-11-14 22:12:49,647 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520943
+2022-11-14 22:12:49,778 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520910
+2022-11-14 22:12:49,908 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520823
+2022-11-14 22:12:50,051 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520873
+2022-11-14 22:12:50,173 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520925
+2022-11-14 22:12:50,317 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520907
+2022-11-14 22:12:50,466 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520905
+2022-11-14 22:12:50,640 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521415
+2022-11-14 22:12:50,793 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521360
+2022-11-14 22:12:50,966 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521112
+2022-11-14 22:12:51,104 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520082
+2022-11-14 22:12:51,224 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1516938
+2022-11-14 22:12:51,343 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1518477
+2022-11-14 22:12:51,496 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1518188
+2022-11-14 22:12:51,621 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1518024
+2022-11-14 22:12:51,790 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519530
+2022-11-14 22:12:51,930 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519013
+2022-11-14 22:12:52,072 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1518247
+2022-11-14 22:12:52,226 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1499229
+2022-11-14 22:12:52,397 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519773
+2022-11-14 22:12:52,509 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519623
+2022-11-14 22:12:52,673 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520907
+2022-11-14 22:12:52,812 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520663
+2022-11-14 22:12:52,957 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520705
+2022-11-14 22:12:53,122 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521411
+2022-11-14 22:12:53,272 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521333
+2022-11-14 22:12:53,408 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521337
+2022-11-14 22:12:53,546 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521330
+2022-11-14 22:12:53,706 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521326
+2022-11-14 22:12:53,838 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521310
+2022-11-14 22:12:53,967 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521313
+2022-11-14 22:12:54,140 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521301
+2022-11-14 22:12:54,310 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521283
+2022-11-14 22:12:54,449 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521224
+2022-11-14 22:12:54,563 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521242
+2022-11-14 22:12:54,679 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521205
+2022-11-14 22:12:54,846 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521179
+2022-11-14 22:12:55,014 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521046
+2022-11-14 22:12:55,187 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521033
+2022-11-14 22:12:55,327 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521043
+2022-11-14 22:12:55,480 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521051
+2022-11-14 22:12:55,640 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520748
+2022-11-14 22:12:55,807 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520901
+2022-11-14 22:12:55,978 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520545
+2022-11-14 22:12:56,115 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519963
+2022-11-14 22:12:56,290 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520542
+2022-11-14 22:12:56,427 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520375
+2022-11-14 22:12:56,576 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519980
+2022-11-14 22:12:56,701 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521126
+2022-11-14 22:12:56,866 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521125
+2022-11-14 22:12:56,983 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520769
+2022-11-14 22:12:57,143 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520274
+2022-11-14 22:12:57,276 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1511045
+2022-11-14 22:12:57,411 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1508897
+2022-11-14 22:12:57,523 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1508438
+2022-11-14 22:12:57,676 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521127
+2022-11-14 22:12:57,829 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520963
+2022-11-14 22:12:58,000 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520079
+2022-11-14 22:12:58,142 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1518665
+2022-11-14 22:12:58,286 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1516902
+2022-11-14 22:12:58,454 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1518596
+2022-11-14 22:12:58,624 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1518002
+2022-11-14 22:12:58,798 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519674
+2022-11-14 22:12:58,929 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1517816
+2022-11-14 22:12:59,087 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521182
+2022-11-14 22:12:59,257 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521180
+2022-11-14 22:12:59,403 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521021
+2022-11-14 22:12:59,534 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520371
+2022-11-14 22:12:59,698 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520893
+2022-11-14 22:12:59,847 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520217
+2022-11-14 22:12:59,982 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520720
+2022-11-14 22:13:00,159 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520624
+2022-11-14 22:13:00,310 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520554
+2022-11-14 22:13:00,440 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520594
+2022-11-14 22:13:00,588 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520420
+2022-11-14 22:13:00,726 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520556
+2022-11-14 22:13:00,857 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519977
+2022-11-14 22:13:01,006 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520411
+2022-11-14 22:13:01,152 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520428
+2022-11-14 22:13:01,302 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520354
+2022-11-14 22:13:01,476 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521427
+2022-11-14 22:13:01,623 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521429
+2022-11-14 22:13:01,759 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521334
+2022-11-14 22:13:01,892 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1518969
+2022-11-14 22:13:02,039 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1518631
+2022-11-14 22:13:02,214 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1513995
+2022-11-14 22:13:02,392 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1518991
+2022-11-14 22:13:02,532 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1518604
+2022-11-14 22:13:02,702 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1516245
+2022-11-14 22:13:02,849 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1517689
+2022-11-14 22:13:03,016 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1518586
+2022-11-14 22:13:03,175 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1502980
+2022-11-14 22:13:03,314 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519245
+2022-11-14 22:13:03,439 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1516529
+2022-11-14 22:13:03,594 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1518947
+2022-11-14 22:13:03,736 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1479166
+2022-11-14 22:13:03,861 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1473838
+2022-11-14 22:13:03,999 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1468852
+2022-11-14 22:13:04,140 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1518699
+2022-11-14 22:13:04,294 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519745
+2022-11-14 22:13:04,427 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521369
+2022-11-14 22:13:04,578 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521042
+2022-11-14 22:13:04,734 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520392
+2022-11-14 22:13:04,888 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520232
+2022-11-14 22:13:05,038 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520224
+2022-11-14 22:13:05,204 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520154
+2022-11-14 22:13:05,353 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520036
+2022-11-14 22:13:05,517 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519872
+2022-11-14 22:13:05,655 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519851
+2022-11-14 22:13:05,791 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519820
+2022-11-14 22:13:05,930 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519776
+2022-11-14 22:13:06,082 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519775
+2022-11-14 22:13:06,198 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519452
+2022-11-14 22:13:06,338 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519449
+2022-11-14 22:13:06,458 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519411
+2022-11-14 22:13:06,603 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519425
+2022-11-14 22:13:06,738 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519246
+2022-11-14 22:13:06,865 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519221
+2022-11-14 22:13:06,999 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520981
+2022-11-14 22:13:07,118 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521075
+2022-11-14 22:13:07,256 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521050
+2022-11-14 22:13:07,392 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521034
+2022-11-14 22:13:07,521 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520740
+2022-11-14 22:13:07,657 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521035
+2022-11-14 22:13:07,798 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520953
+2022-11-14 22:13:07,939 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520858
+2022-11-14 22:13:08,083 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520845
+2022-11-14 22:13:08,219 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520859
+2022-11-14 22:13:08,360 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520908
+2022-11-14 22:13:08,530 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520886
+2022-11-14 22:13:08,654 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520885
+2022-11-14 22:13:08,799 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520573
+2022-11-14 22:13:08,932 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520741
+2022-11-14 22:13:09,075 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520635
+2022-11-14 22:13:09,214 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521363
+2022-11-14 22:13:09,355 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520743
+2022-11-14 22:13:09,535 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520741
+2022-11-14 22:13:09,697 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1518058
+2022-11-14 22:13:09,836 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521430
+2022-11-14 22:13:09,978 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521336
+2022-11-14 22:13:10,140 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521098
+2022-11-14 22:13:10,270 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521044
+2022-11-14 22:13:10,428 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521048
+2022-11-14 22:13:10,570 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520937
+2022-11-14 22:13:10,695 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520933
+2022-11-14 22:13:10,849 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520950
+2022-11-14 22:13:11,009 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520955
+2022-11-14 22:13:11,165 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520960
+2022-11-14 22:13:11,304 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520789
+2022-11-14 22:13:11,444 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520794
+2022-11-14 22:13:11,594 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520928
+2022-11-14 22:13:11,726 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520695
+2022-11-14 22:13:11,865 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520808
+2022-11-14 22:13:12,018 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520798
+2022-11-14 22:13:12,149 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520824
+2022-11-14 22:13:12,282 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519875
+2022-11-14 22:13:12,426 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521207
+2022-11-14 22:13:12,584 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521192
+2022-11-14 22:13:12,713 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520824
+2022-11-14 22:13:12,864 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521335
+2022-11-14 22:13:13,007 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520639
+2022-11-14 22:13:13,173 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520955
+2022-11-14 22:13:13,323 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521430
+2022-11-14 22:13:13,500 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521268
+2022-11-14 22:13:13,650 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521231
+2022-11-14 22:13:13,814 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520932
+2022-11-14 22:13:13,944 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520881
+2022-11-14 22:13:14,092 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520880
+2022-11-14 22:13:14,221 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520700
+2022-11-14 22:13:14,355 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520815
+2022-11-14 22:13:14,512 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520775
+2022-11-14 22:13:14,661 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520735
+2022-11-14 22:13:14,799 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520685
+2022-11-14 22:13:14,939 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520633
+2022-11-14 22:13:15,076 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520632
+2022-11-14 22:13:15,237 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520615
+2022-11-14 22:13:15,365 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520611
+2022-11-14 22:13:15,498 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520345
+2022-11-14 22:13:15,665 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520279
+2022-11-14 22:13:15,838 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520280
+2022-11-14 22:13:15,958 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521060
+2022-11-14 22:13:16,097 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520880
+2022-11-14 22:13:16,260 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520815
+2022-11-14 22:13:16,392 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1425896
+2022-11-14 22:13:16,528 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1409251
+2022-11-14 22:13:16,671 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1395114
+2022-11-14 22:13:16,783 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1499926
+2022-11-14 22:13:16,904 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1066108
+2022-11-14 22:13:17,031 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1055670
+2022-11-14 22:13:17,173 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1497959
+2022-11-14 22:13:17,322 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1448979
+2022-11-14 22:13:17,477 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1414819
+2022-11-14 22:13:17,596 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519596
+2022-11-14 22:13:17,757 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1518846
+2022-11-14 22:13:17,900 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1516484
+2022-11-14 22:13:18,067 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520946
+2022-11-14 22:13:18,214 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520945
+2022-11-14 22:13:18,364 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520762
+2022-11-14 22:13:18,484 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520745
+2022-11-14 22:13:18,608 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520736
+2022-11-14 22:13:18,720 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520715
+2022-11-14 22:13:18,874 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520719
+2022-11-14 22:13:18,991 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520690
+2022-11-14 22:13:19,118 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520646
+2022-11-14 22:13:19,280 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520241
+2022-11-14 22:13:19,404 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520568
+2022-11-14 22:13:19,562 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520275
+2022-11-14 22:13:19,698 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520385
+2022-11-14 22:13:19,841 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520478
+2022-11-14 22:13:19,973 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520348
+2022-11-14 22:13:20,159 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520432
+2022-11-14 22:13:20,301 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1043035
+2022-11-14 22:13:20,456 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1042967
+2022-11-14 22:13:20,595 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1032473
+2022-11-14 22:13:20,743 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1518149
+2022-11-14 22:13:20,874 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1510109
+2022-11-14 22:13:21,011 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1508146
+2022-11-14 22:13:21,142 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521201
+2022-11-14 22:13:21,275 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519653
+2022-11-14 22:13:21,459 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1513058
+2022-11-14 22:13:21,611 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1431673
+2022-11-14 22:13:21,786 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1515409
+2022-11-14 22:13:21,928 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1515409
+2022-11-14 22:13:22,084 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521008
+2022-11-14 22:13:22,197 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520745
+2022-11-14 22:13:22,381 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1518971
+2022-11-14 22:13:22,522 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521434
+2022-11-14 22:13:22,659 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521433
+2022-11-14 22:13:22,799 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521230
+2022-11-14 22:13:22,929 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521199
+2022-11-14 22:13:23,066 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521198
+2022-11-14 22:13:23,232 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521188
+2022-11-14 22:13:23,395 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521190
+2022-11-14 22:13:23,565 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521152
+2022-11-14 22:13:23,696 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521157
+2022-11-14 22:13:23,833 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520972
+2022-11-14 22:13:23,946 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521148
+2022-11-14 22:13:24,104 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521146
+2022-11-14 22:13:24,250 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521142
+2022-11-14 22:13:24,394 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521118
+2022-11-14 22:13:24,538 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521102
+2022-11-14 22:13:24,674 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521097
+2022-11-14 22:13:24,810 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521143
+2022-11-14 22:13:24,977 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1514875
+2022-11-14 22:13:25,085 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521115
+2022-11-14 22:13:25,248 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1515408
+2022-11-14 22:13:25,365 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1467727
+2022-11-14 22:13:25,527 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519830
+2022-11-14 22:13:25,661 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521024
+2022-11-14 22:13:25,805 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521227
+2022-11-14 22:13:25,930 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520209
+2022-11-14 22:13:26,101 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1516011
+2022-11-14 22:13:26,243 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520791
+2022-11-14 22:13:26,379 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521074
+2022-11-14 22:13:26,521 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521066
+2022-11-14 22:13:26,658 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520964
+2022-11-14 22:13:26,810 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520930
+2022-11-14 22:13:26,955 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520400
+2022-11-14 22:13:27,093 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520890
+2022-11-14 22:13:27,235 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519928
+2022-11-14 22:13:27,373 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520495
+2022-11-14 22:13:27,526 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520764
+2022-11-14 22:13:27,638 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520763
+2022-11-14 22:13:27,774 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520699
+2022-11-14 22:13:27,928 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519927
+2022-11-14 22:13:28,087 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520501
+2022-11-14 22:13:28,232 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519924
+2022-11-14 22:13:28,381 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519721
+2022-11-14 22:13:28,532 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520453
+2022-11-14 22:13:28,695 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521276
+2022-11-14 22:13:28,824 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521267
+2022-11-14 22:13:28,954 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521272
+2022-11-14 22:13:29,116 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520949
+2022-11-14 22:13:29,282 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521074
+2022-11-14 22:13:29,404 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520471
+2022-11-14 22:13:29,533 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520495
+2022-11-14 22:13:29,682 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1517238
+2022-11-14 22:13:29,857 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1510889
+2022-11-14 22:13:30,014 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521396
+2022-11-14 22:13:30,181 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521321
+2022-11-14 22:13:30,326 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521204
+2022-11-14 22:13:30,478 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1521196
+2022-11-14 22:13:30,666 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519458
+2022-11-14 22:13:30,825 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1519035
+2022-11-14 22:13:30,961 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1517844
+2022-11-14 22:13:31,130 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1517802
+2022-11-14 22:13:31,269 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520920
+2022-11-14 22:13:31,412 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1520566
+2022-11-14 22:13:31,549 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1516266
+2022-11-14 22:13:31,678 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1515887
+2022-11-14 22:13:31,820 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1515861
+2022-11-14 22:13:31,956 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1515254
+2022-11-14 22:13:32,079 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1511992
+2022-11-14 22:13:32,214 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1516303
+2022-11-14 22:13:32,347 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1516072
+2022-11-14 22:13:32,470 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1516073
+2022-11-14 22:13:32,604 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1508991
+2022-11-14 22:13:32,760 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1509573
+2022-11-14 22:13:32,884 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1504264
+2022-11-14 22:13:33,025 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1506973
+2022-11-14 22:13:33,154 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1504219
+2022-11-14 22:13:33,303 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1505046
+2022-11-14 22:13:33,416 - INFO - res status:403, api: https://thanhnien.vn/api/comments/get/by-obj?object_type=20&object_id=1451396

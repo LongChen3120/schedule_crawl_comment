@@ -43,29 +43,32 @@ class My_thread(threading.Thread):
 
 
 def detect_time():
+    time_now = datetime.datetime.now()
     col_config, col_temp_db, col_toppaper = query.connect_DB()
-    if datetime.datetime.now().time().hour % 24 == 0:
-        list_doc = query.get_data(col_temp_db, "get_all")
-        check_time(col_temp_db, col_toppaper, list_doc)
-        create_thread(col_temp_db, list_doc)
-        main_crawl.main()
+    # if datetime.datetime.now().time().hour % 24 == 0:
+    #     list_doc = query.get_data(col_temp_db, [1,2,3])
+    #     check_time(col_temp_db, col_toppaper, list_doc)
+    #     create_thread(col_temp_db, list_doc)
+    #     asyncio.gather()
+    #     main_crawl.main()
 
-    elif datetime.datetime.now().time().hour % 6 == 0:
-        list_doc = query.get_data(col_temp_db, [1, 2])
-        check_time(col_temp_db, col_toppaper, list_doc)
-        create_thread(col_temp_db, list_doc)
-        main_crawl.main()
+    # elif datetime.datetime.now().time().hour % 6 == 0:
+    #     list_doc = query.get_data(col_temp_db, [1, 2])
+    #     check_time(col_temp_db, col_toppaper, list_doc)
+    #     create_thread(col_temp_db, list_doc)
+    #     main_crawl.main()
 
-    elif datetime.datetime.now().time().hour % 2 == 0:
-        list_doc = query.get_data(col_temp_db, [1])
-        check_time(col_temp_db, col_toppaper, list_doc)
-        create_thread(col_temp_db, list_doc)
-        main_crawl.main()
+    # elif datetime.datetime.now().time().hour % 2 == 0:
+    #     list_doc = query.get_data(col_temp_db, [1])
+    #     check_time(col_temp_db, col_toppaper, list_doc)
+    #     create_thread(col_temp_db, list_doc)
+        # main_crawl.main()
 
-    else:
-        list_doc = query.get_data(col_temp_db, "get_all")
-        check_time(col_temp_db, col_toppaper, list_doc)
-        create_thread(col_temp_db, list_doc)
+    # else:
+    main_crawl.main()
+    list_doc = query.get_data(col_temp_db, [1,2,3], time_now)
+    check_time(col_temp_db, col_toppaper, list_doc)
+    create_thread(col_temp_db, list_doc)
 
 
 
@@ -95,7 +98,7 @@ def create_thread(col_temp_db, list_doc):
     for doc in list_doc:
         queue_doc.put(doc)
 
-    for i in range(3): #5
+    for i in range(1): #5
         thread = My_thread(queue_doc, queue_update, queue_post_err, queue_post_save)
         thread.daemon
         thread.start()
@@ -127,12 +130,18 @@ def main():
 
 if __name__ == '__main__':
     start_time = time.time()
-    scheduler = BlockingScheduler()
-    scheduler.add_job(main, 'interval', hours=1)
-    print('Press Ctrl+C to exit !')
-    try:
-        scheduler.start()
-    except (KeyboardInterrupt, SystemExit):
-        pass
+    main()
+    # scheduler = BlockingScheduler()
+    # scheduler.add_job(main, 'interval', hours=1)
+    # print('Press Ctrl+C to exit !')
+    # try:
+    #     scheduler.start()
+    # except (KeyboardInterrupt, SystemExit):
+    #     pass
 
     print("done ! \ntime: ",(time.time() - start_time))
+
+
+
+# thay vì check link ở db trước rồi mới quét link mới và comment mới về thì quét link và comment về trước. link mới lưu với time check, 
+# link cũ đã có trong db thì cập nhật comment với time_check. xong việc mới kiểm tra trong db có link nào chưa được cập nhật thì mới quét detail.

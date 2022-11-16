@@ -59,9 +59,10 @@ def crawl_out_post(link_cate, config, queue_cate_err):
             queue_cate_err.put(link_cate)
         finally:
             website.close()
-    list_data = check_replace_link(list_data)
+    # list_data = check_replace_link(list_data)
     if len(list_data) > 0:
-        query.insert_col(col_temp_db, list_data)
+        # query.insert_col(col_temp_db, list_data)
+        query.update_col(col_temp_db, list_data)
         return list_data
     else:
         pass
