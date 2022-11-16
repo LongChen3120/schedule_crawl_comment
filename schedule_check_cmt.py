@@ -66,9 +66,10 @@ def detect_time():
 
     # else:
     main_crawl.main()
-    list_doc = query.get_data(col_temp_db, [1,2,3], time_now)
-    check_time(col_temp_db, col_toppaper, list_doc)
-    create_thread(col_temp_db, list_doc)
+    # list_doc = query.get_data(col_temp_db, [1,2,3], time_now)
+    # print(len(list_doc))
+    # check_time(col_temp_db, col_toppaper, list_doc)
+    # create_thread(col_temp_db, list_doc)
 
 
 

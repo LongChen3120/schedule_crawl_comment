@@ -28,29 +28,32 @@ def get_data(col, type_doc, time_now):
     return list_doc_today
 
 
+# col_config, col_temp_db, col_toppaper = connect_DB()
+# time_now = datetime.datetime.now()
+# print(get_data(col_temp_db, [1,2,3], time_now))
 
 
 def insert_col(col, list_data):
     col.insert_many(list_data)
 
 def update_col(col, list_doc):
+    list_doc_new = []
     for doc in list_doc:
-        if col.find_one({'url':doc['url']}):
-            pass
-        else:
-            list_doc.remove(doc)
-            try:
-                del doc['_id']
-            except:
-                pass
-            doc['last_check'] = datetime.datetime.now()
+        doc_in_db = col.find_one({'url':doc['url']})
+        if doc_in_db:
+            doc_in_db['last_check'] = datetime.datetime.now()
+            doc_in_db['comment'] = doc['comment']
             filter = {"url": doc['url']}
-            vals = {"$set":doc}
+            vals = {"$set":doc_in_db}
             try:
                 col.update_many(filter, vals)
             except:
                 pass
-    insert_col(col, list_doc)
+        else:
+            list_doc_new.append(doc)
+            
+    if len(list_doc_new) > 0:
+        insert_col(col, list_doc_new)
 
 
 def delete_from_col(col, list_data):
