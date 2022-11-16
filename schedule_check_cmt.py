@@ -21,7 +21,7 @@ class My_thread(threading.Thread):
     def run(self):
         while self.queue_doc.empty() == False:
             doc = self.queue_doc.get()
-            logging.info(f"{threading.current_thread().name} update link: {doc['url']}")
+            # logging.info(f"{threading.current_thread().name} update link: {doc['url']}")
             comment = crawl_cmt.crawl_in_post(doc, self.queue_post_err)
             if comment:
                 doc['comment'] = comment
@@ -31,7 +31,7 @@ class My_thread(threading.Thread):
 
         while self.queue_post_err.empty() == False:
             doc = self.queue_post_err.get()
-            logging.info(f"{threading.current_thread().name} reupdate link {doc['url']}")
+            # logging.info(f"{threading.current_thread().name} reupdate link {doc['url']}")
             comment = crawl_cmt.crawl_in_post(doc, self.queue_post_save)
             if comment:
                 doc['comment'] = comment
@@ -45,17 +45,15 @@ class My_thread(threading.Thread):
 def detect_time():
     time_now = datetime.datetime.now()
     col_config, col_temp_db, col_toppaper = query.connect_DB()
-    # main_crawl.main()
+    main_crawl.main()
     if datetime.datetime.now().time().hour % 24 == 0:
         list_doc = query.get_data(col_temp_db, [1,2,3], time_now)
     elif datetime.datetime.now().time().hour % 6 == 0:
         list_doc = query.get_data(col_temp_db, [1, 2], time_now)
-    elif datetime.datetime.now().time().hour % 2 == 0:
-        list_doc = query.get_data(col_temp_db, [1], time_now)
     else:
         list_doc = query.get_data(col_temp_db, [1], time_now)
     check_time(col_temp_db, col_toppaper, col_temp_db.find({}))
-    # create_thread(col_temp_db, list_doc)
+    create_thread(col_temp_db, list_doc)
 
 
 
@@ -128,14 +126,14 @@ def main():
 
 if __name__ == '__main__':
     start_time = time.time()
-    main()
-    # scheduler = BlockingScheduler()
-    # scheduler.add_job(main, 'interval', hours=1)
-    # print('Press Ctrl+C to exit !')
-    # try:
-    #     scheduler.start()
-    # except (KeyboardInterrupt, SystemExit):
-    #     pass
+    # main()
+    scheduler = BlockingScheduler()
+    scheduler.add_job(main, 'interval', hours=1)
+    print('Press Ctrl+C to exit !')
+    try:
+        scheduler.start()
+    except (KeyboardInterrupt, SystemExit):
+        pass
 
     print("done ! \ntime: ",(time.time() - start_time))
 

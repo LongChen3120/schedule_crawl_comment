@@ -36,7 +36,7 @@ def crawl_out_post(link_cate, config, queue_cate_err):
                         if link_post:
                             link_post = make_full_link(config['website'], link_post)
                             check_link_post = True
-                            list_data.append({"type_doc":1, "datetime": datetime.datetime.now(), "resourceUrl":link_cate, "url":link_post[0], "comment":comment[0] if len(comment) > 0 else "", "type":6})
+                            list_data.append({"type_doc":1, "datetime": datetime.datetime.now(), "resourceUrl":link_cate, "url":link_post[0], "comment":int(comment[0]) if len(comment) > 0 else "", "type":6})
                             break
                 except:
                     queue_cate_err.put(link_cate)
@@ -99,17 +99,17 @@ def crawl_in_post(doc, queue_post_err):
                         break
                     except: # xảy ra khi res.status_code() = 200 nhưng token hết hạn
                         comment = doc['comment']
-                        logging.info(f"412, api: {api}")
+                        # logging.info(f"412, api: {api}")
                 except: # xảy ra khi res.status_code() = 403
-                    logging.info(f"res status:{res.status_code}, api: {api}")
+                    # logging.info(f"res status:{res.status_code}, api: {api}")
                     comment = doc['comment']
 
                 
     except:
         queue_post_err.put(doc)
-        comment = "0"
+        comment = 0
 
-    return comment
+    return int(comment)
 
 
 def send_request(link_cate, type_crawl, param_scroll_down):
