@@ -103,3 +103,11 @@ def delete_from_col(col, list_data):
 #         update_col(demo, doc)
 # check_update()
 #hi
+
+# def check_update():
+#     col_config, col_temp_db, col_toppaper, demo = connect_DB()
+#     list_doc = demo.find({})
+#     for doc in list_doc:
+#         doc['comment'] = 10
+#         update_col(demo, doc)
+# check_update()
