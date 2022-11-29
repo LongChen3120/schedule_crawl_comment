@@ -128,14 +128,14 @@ if __name__ == '__main__':
     start_time = time.time()
     with open('./log/log_main.log', 'w'):
         pass
-    main()
-    # scheduler = BlockingScheduler()
-    # scheduler.add_job(main, 'interval', hours=1, max_instances=5)
-    # print('Press Ctrl+C to exit !')
-    # try:
-    #     scheduler.start()
-    # except (KeyboardInterrupt, SystemExit):
-    #     pass
+    # main()
+    scheduler = BlockingScheduler()
+    scheduler.add_job(main, 'interval', hours=1, max_instances=5)
+    print('Press Ctrl+C to exit !')
+    try:
+        scheduler.start()
+    except (KeyboardInterrupt, SystemExit):
+        pass
 
     print("done ! \ntime: ",(time.time() - start_time))
 

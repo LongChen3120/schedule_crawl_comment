@@ -59,7 +59,7 @@ def crawl_out_post(link_cate, config, queue_cate_err):
             queue_cate_err.put(link_cate)
         finally:
             website.close()
-    # list_data = check_replace_link(list_data)
+    list_data = check_replace_link(list_data)
     if len(list_data) > 0:
         # query.insert_col(col_temp_db, list_data)
         query.update_col(col_temp_db, list_data)
@@ -207,7 +207,8 @@ def check_replace_link(list_data):
     col_config, col_temp_db, col_toppaper = query.connect_DB()
     temp = []
     for doc in list_data:
-        if col_temp_db.find_one({"url":doc['url']}):
+        url = doc['url']
+        if col_temp_db.find_one({"url":url}) and url in temp:
             pass
         else:
             temp.append(doc)
