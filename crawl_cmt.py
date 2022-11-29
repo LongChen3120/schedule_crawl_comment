@@ -26,7 +26,7 @@ def crawl_out_post(link_cate, config, queue_cate_err):
         for obj in list_obj_cmt:
             comment = re.findall(r'\d+', obj.text_content())
             check_link_post = False
-            while check_link_post == False:
+            while comment and check_link_post == False:
                 obj = obj.getparent()
                 list_descendant = [node for node in obj]
                 try:
@@ -36,7 +36,7 @@ def crawl_out_post(link_cate, config, queue_cate_err):
                         if link_post:
                             link_post = make_full_link(config['website'], link_post)
                             check_link_post = True
-                            list_data.append({"type_doc":1, "datetime": datetime.datetime.now(), "resourceUrl":link_cate, "url":link_post[0], "comment":int(comment[0]) if len(comment) > 0 else "", "type":6})
+                            list_data.append({"type_doc":1, "datetime": datetime.datetime.now(), "resourceUrl":link_cate, "url":link_post[0], "comment":int(comment[0]), "type":6})
                             break
                 except:
                     queue_cate_err.put(link_cate)
@@ -48,12 +48,12 @@ def crawl_out_post(link_cate, config, queue_cate_err):
             for obj in list_obj_cmt:
                 comment = re.findall(r'\d+', obj.get_attribute('textContent'))
                 check_link_post = False
-                while check_link_post == False:
+                while comment and check_link_post == False:
                     obj = obj.find_element(By.XPATH, '..')
                     link_post = check_regex(config['link_post']['detect']['re'], [str(obj.get_attribute('innerHTML'))])
                     if link_post:
                         link_post = make_full_link(config['website'], link_post)
-                        list_data.append({"type_doc":1, "datetime": datetime.datetime.now(), "resourceUrl":link_cate, "url":link_post[0], "comment":comment[0] if len(comment) > 0 else "", "type":6})
+                        list_data.append({"type_doc":1, "datetime": datetime.datetime.now(), "resourceUrl":link_cate, "url":link_post[0], "comment":int(comment[0]), "type":6})
                         break
         except: # xảy ra khi time_out hoặc page không có data
             queue_cate_err.put(link_cate)
@@ -88,7 +88,7 @@ def crawl_in_post(doc, queue_post_err):
 
         elif type_crawl == 3:
             list_api = detect_type_param(link_post, config_site['api'])
-            time.sleep(config_site['api']['time_sleep'])
+            # time.sleep(config_site['api']['time_sleep'])
             for api in list_api:
                 try:
                     res = send_request(api, 1, param_scroll_down= False)
