@@ -5,7 +5,7 @@ import datetime
 # local mongodb://localhost:27017
 # a huy mongodb://192.168.19.168:27017
 def connect_DB():
-    client = pymongo.MongoClient("mongodb://192.168.19.168:27017")
+    client = pymongo.MongoClient("mongodb://localhost:27017")
     db = client["PaPer"]
     col_temp_db = db["temp_collection"]
     col_toppaper = db["toppaper"]
@@ -21,9 +21,7 @@ def find_config(mycol_config):
 def get_data(col, type_doc, time_now):
     list_doc_today = []
     for type in type_doc:
-        for doc in col.find({"type" : 6, "type_doc":type, "last_check": {
-        "$lt": time_now
-    }}):
+        for doc in col.find({"type" : 6, "type_doc":type,}):
             list_doc_today.append(doc)
     return list_doc_today
 
@@ -79,20 +77,20 @@ def delete_from_col(col, list_data):
 # insert_config()
 
 
-# def update_config():
-#     col_config, col_temp_db, col_toppaper = connect_DB()
-#     with open('config.json', 'r', encoding='utf-8') as read_config:
-#         configs = json.load(read_config)
-#     for config in configs:
-#         try:
-#             if col_config.find_one({"website":config['website']}):
-#                 mapping_site = {"website":{"$regex":f"{config['website']}"}}
-#                 update_vals = {"$set":config}
-#                 update_web = col_config.update_one(mapping_site, update_vals)
-#             else:
-#                 col_config.insert_one(config)
-#         except:
-#             print(config)
+def update_config():
+    col_config, col_temp_db, col_toppaper = connect_DB()
+    with open('config_v2.json', 'r', encoding='utf-8') as read_config:
+        configs = json.load(read_config)
+    for config in configs:
+        try:
+            if col_config.find_one({"website":config['website']}):
+                mapping_site = {"website":{"$regex":f"{config['website']}"}}
+                update_vals = {"$set":config}
+                update_web = col_config.update_one(mapping_site, update_vals)
+            else:
+                col_config.insert_one(config)
+        except:
+            print(config)
 # update_config()
 
 # def get_config():
