@@ -18,12 +18,13 @@ def check_comment_detail(col_temp_db, list_doc):
 
 
 def detect_time():
-    time_now = datetime.datetime.now()
     col_config, col_temp_db, col_toppaper = query.connect_DB()
+    time_create = datetime.datetime.now()
     main_crawl.main()
     if datetime.datetime.now().time().hour % 6 == 0:
-        check_time(col_temp_db, col_toppaper, col_temp_db.find({}))
-        list_doc = query.get_data(col_temp_db, [1], time_now)
+        check_time(col_temp_db, col_toppaper, col_temp_db.find({"datetime": {"$lt": time_create}}))
+        list_doc = query.get_data(col_temp_db, [1], time_create)
+        print(len(list_doc))
         check_comment_detail(col_temp_db, list_doc)
 
 

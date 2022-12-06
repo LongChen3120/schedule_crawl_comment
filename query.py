@@ -5,7 +5,7 @@ import datetime
 # local mongodb://localhost:27017
 # a huy mongodb://192.168.19.168:27017
 def connect_DB():
-    client = pymongo.MongoClient("mongodb://localhost:27017")
+    client = pymongo.MongoClient("mongodb://192.168.19.168:27017")
     db = client["PaPer"]
     col_temp_db = db["temp_collection"]
     col_toppaper = db["toppaper"]
@@ -18,10 +18,12 @@ def find_config(mycol_config):
     my_config = mycol_config.find({})
     return my_config
 
-def get_data(col, type_doc, time_now):
+def get_data(col, type_doc, time_create):
     list_doc_today = []
     for type in type_doc:
-        for doc in col.find({"type" : 6, "type_doc":type,}):
+        for doc in col.find({"type" : 6, "type_doc":type, "datetime": {
+        "$lt": time_create
+        }}):
             list_doc_today.append(doc)
     return list_doc_today
 
