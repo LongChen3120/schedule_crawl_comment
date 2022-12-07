@@ -9,12 +9,16 @@ import os
 
 
 def check_comment_detail(col_toppaper, list_doc):
+    list_doc_new = []
     for doc in list_doc:
         comment = crawl_cmt.crawl_in_post(doc)
         if comment > 0:
+            del doc['_id']
             doc['comment'] = comment
             doc['last_check'] = datetime.datetime.now()
-            query.update_col(col_toppaper, [doc])
+            list_doc_new.append(doc)
+    print(list_doc_new)
+    query.insert_col(col_toppaper, list_doc_new)
 
 
 def detect_time():
