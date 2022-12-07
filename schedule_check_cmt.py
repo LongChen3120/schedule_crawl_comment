@@ -38,7 +38,7 @@ def check_time(col_temp_db, list_doc):
         if (datetime.datetime.now() - doc['datetime']).days == 1:
             doc['type_doc'] = 2
             list_doc_update_type.append(doc)
-        elif (datetime.datetime.now() - doc['datetime']).days > 1:
+        elif (datetime.datetime.now() - doc['datetime']).days > 3:
             list_del.append(doc)
     query.update_type_doc(col_temp_db, list_doc_update_type)
     if len(list_del) > 0:
