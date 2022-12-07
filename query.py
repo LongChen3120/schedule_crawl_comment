@@ -21,7 +21,7 @@ def find_config(mycol_config):
 def get_data(col, type_doc, time_create):
     list_doc_today = []
     for type in type_doc:
-        for doc in col.find({"type" : 6, "type_doc":type, "datetime": {
+        for doc in col.find({"type" : 6, "type_doc":type, "comment": 1, "datetime": {
         "$lt": time_create
         }}):
             list_doc_today.append(doc)
@@ -35,6 +35,16 @@ def get_data(col, type_doc, time_create):
 
 def insert_col(col, list_data):
     col.insert_many(list_data)
+
+
+def insert_to_toppaper(col, list_data):
+    list_new_doc = []
+    for doc in list_data:
+        if doc['comment'] > 0:
+            list_new_doc.append(doc)
+    if len(list_new_doc) > 0:
+        col.insert_many(list_new_doc)
+
 
 def update_col(col, list_doc):
     list_doc_new = []

@@ -17,8 +17,8 @@ def check_comment_detail(col_toppaper, list_doc):
             doc['comment'] = comment
             doc['last_check'] = datetime.datetime.now()
             list_doc_new.append(doc)
-    print(list_doc_new)
-    query.insert_col(col_toppaper, list_doc_new)
+    if len(list_doc_new) > 0:
+        query.insert_col(col_toppaper, list_doc_new)
 
 
 def detect_time():
@@ -67,7 +67,7 @@ if __name__ == '__main__':
     except (KeyboardInterrupt, SystemExit):
         pass
 
-    print("done ! \ntime: ",(time.time() - start_time))
+    # print("done ! \ntime: ",(time.time() - start_time))
 
 
 
