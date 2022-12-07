@@ -160,7 +160,7 @@ def parse_html(response, website, resourceUrl, config):
                                 "datetime": datetime.datetime.now(), 
                                 "resourceUrl":resourceUrl, "url":link_post[0], 
                                 "comment":int(comment[0]), 
-                                "type":6
+                                "type":4
                                 }
                         )
                         break
@@ -181,7 +181,7 @@ def parse_browser(response, website, resourceUrl, config):
                 link_post = check_regex(config['detect_link']['re'], [str(obj.get_attribute('innerHTML'))])
                 if link_post:
                     link_post = make_full_link(website, link_post)
-                    list_data.append({"type_doc":1, "datetime": datetime.datetime.now(), "resourceUrl":resourceUrl, "url":link_post[0], "comment":int(comment[0]), "type":6})
+                    list_data.append({"type_doc":1, "datetime": datetime.datetime.now(), "resourceUrl":resourceUrl, "url":link_post[0], "comment":int(comment[0]), "type":4})
                     break
     except: # xảy ra khi time_out hoặc page không có data
         pass
