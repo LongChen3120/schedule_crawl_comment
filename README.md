@@ -1,3 +1,5 @@
+# Run schedule_check_cmt.py
+
 ## type crawl
 + 1: request
 + 2: selenium
