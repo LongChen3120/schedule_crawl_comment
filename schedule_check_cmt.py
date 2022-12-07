@@ -8,13 +8,13 @@ import asyncio
 import os
 
 
-def check_comment_detail(col_temp_db, list_doc):
+def check_comment_detail(col_toppaper, list_doc):
     for doc in list_doc:
         comment = crawl_cmt.crawl_in_post(doc)
-        if comment:
+        if comment > 0:
             doc['comment'] = comment
             doc['last_check'] = datetime.datetime.now()
-            query.update_col(col_temp_db, [doc])
+            query.update_col(col_toppaper, [doc])
 
 
 def detect_time():
@@ -22,36 +22,24 @@ def detect_time():
     time_create = datetime.datetime.now()
     main_crawl.main()
     if datetime.datetime.now().time().hour % 6 == 0:
-        check_time(col_temp_db, col_toppaper, col_temp_db.find({"datetime": {"$lt": time_create}}))
+        check_time(col_temp_db, col_temp_db.find({"datetime": {"$lt": time_create}}))
         list_doc = query.get_data(col_temp_db, [1], time_create)
-        print(len(list_doc))
-        check_comment_detail(col_temp_db, list_doc)
+        check_comment_detail(col_toppaper, list_doc)
 
 
-def check_time(col_temp_db, col_toppaper, list_doc):
-    list_doc_update = []
-    list_doc_over_time = []
+def check_time(col_temp_db, list_doc):
+    list_doc_update_type = []
     list_del = []
     for doc in list_doc:
         if (datetime.datetime.now() - doc['datetime']).days == 1:
             doc['type_doc'] = 2
-            list_doc_update.append(doc)
-        elif (datetime.datetime.now() - doc['datetime']).days == 2:
-            doc['type_doc'] = 3
-            list_doc_update.append(doc)
-        elif (datetime.datetime.now() - doc['datetime']).days > 2:
-            if doc['comment'] == "0":
-                list_del.append(doc)
-            else:
-                del doc['type_doc']
-                del doc['_id']
-                list_doc_over_time.append(doc)
-    query.update_type_doc(col_temp_db, list_doc_update)
+            list_doc_update_type.append(doc)
+        elif (datetime.datetime.now() - doc['datetime']).days > 1:
+            list_del.append(doc)
+    query.update_type_doc(col_temp_db, list_doc_update_type)
     if len(list_del) > 0:
         query.delete_from_col(col_temp_db, list_del)
-    if len(list_doc_over_time) > 0:
-        query.delete_from_col(col_temp_db, list_doc_over_time)
-        query.insert_col(col_toppaper, list_doc_over_time)
+
 
 
 def main():
