@@ -27,6 +27,7 @@ def crawl_out_post(website, link_cate, config):
     list_data = check_replace_link(list_data)
     if len(list_data) > 0:
         query.update_col(col_temp_db, list_data)
+        query.update_col(col_toppaper, list_data)
         return list_data
     else:
         print("not found data", link_cate)
