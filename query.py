@@ -21,7 +21,7 @@ def find_config(mycol_config):
 def get_data(col, type_doc, time_create):
     list_doc_today = []
     for type in type_doc:
-        for doc in col.find({"type" : 4, "type_doc":type, "comment": 1, "datetime": {
+        for doc in col.find({"type" : 4, "type_doc":type, "datetime": {
         "$lt": time_create
         }}):
             list_doc_today.append(doc)
